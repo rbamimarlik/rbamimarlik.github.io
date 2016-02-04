@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="mdl-layout mdl-js-layout">
+      <main class="mdl-layout__content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--3-col">
+            <header id="site-header">
+              <img class="logo" src="{{ "/assets/logo.png" | prepend: site.baseurl }}">
+              {% include nav.html %}
+            </header>
+          </div>
+          <div id="container" class="mdl-cell mdl-cell--9-col">
+            {{ content }}
+          </div>
+        </main>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,24 @@
+<nav>
+  <ul class="mdl-list">
+    <li class="mdl-list__item">
+      <span class="mdl-list__item-primary-content"></span>
+      <span class="mdl-list__item-secondary-content">
+        <a class="mdl-list__item-secondary-action" href="{{ "/" | prepend: site.baseurl }}">
+          Home
+        </a>
+      </span>
+    </li>
+    {% for page in site.pages %}
+      {% if page.title %}
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content"></span>
+        <span class="mdl-list__item-secondary-content">
+          <a class="mdl-list__item-secondary-action" href="{{ page.url | prepend: site.baseurl }}">
+            {{ page.title }}
+          </a>
+        </span>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
