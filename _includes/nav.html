@@ -1,13 +1,5 @@
 <nav>
   <ul class="mdl-list">
-    <li class="mdl-list__item">
-      <span class="mdl-list__item-primary-content"></span>
-      <span class="mdl-list__item-secondary-content">
-        <a class="mdl-list__item-secondary-action" href="{{ "/" | prepend: site.baseurl }}">
-          Home
-        </a>
-      </span>
-    </li>
     {% for page in site.pages %}
       {% if page.title %}
       <li class="mdl-list__item">
@@ -20,5 +12,13 @@
       </li>
       {% endif %}
     {% endfor %}
+    <li class="mdl-list__item">
+      <span class="mdl-list__item-primary-content"></span>
+      <span class="mdl-list__item-secondary-content">
+        <a class="mdl-list__item-secondary-action" href="{{ "/blog" | prepend: site.baseurl }}">
+          Blog
+        </a>
+      </span>
+    </li>
   </ul>
 </nav>

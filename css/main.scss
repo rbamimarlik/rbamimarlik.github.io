@@ -7,6 +7,10 @@ body {
   background-color: #EEEEEE;
 }
 
+a {
+  text-decoration: none;
+}
+
 #backdrop {
   background: #EFEBE9;
   height: 270px;
@@ -38,7 +42,7 @@ main {
     }
   }
 
-  section {
+  .page, .home, .post {
     margin-top: 60px;
     &> .mdl-card {
       width: 100%;
