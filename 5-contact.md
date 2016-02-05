@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: İletişim
 permalink: /contact/
 background: "#009688"
 ---
