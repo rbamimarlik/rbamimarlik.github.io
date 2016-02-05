@@ -51,6 +51,10 @@ main {
       margin-top: 40px;
       border-right: 2px solid #D7CCC8;
 
+      .mdl-list__item a {
+        color: #757575;
+      }
+
       .mdl-list__item-secondary-content a {
         text-decoration: none;
       }
