@@ -11,15 +11,14 @@ a {
   text-decoration: none;
 }
 
-#backdrop {
-  background: #EFEBE9;
-  height: 270px;
-  width: 100%;
-  position: absolute;
-}
-
 main {
+  #backdrop {
+    background: #EFEBE9;
+    height: 270px;
+    width: 100%;
+  }
   .mdl-grid {
+    margin-top: -270px;
     max-width: 1600px;
   }
 
