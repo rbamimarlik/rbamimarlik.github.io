@@ -6,10 +6,23 @@
   <body>
 
     <div class="mdl-layout mdl-js-layout">
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <span class="mdl-layout-title">
+          <img class="logo" src="{{ "/assets/logo.png" | prepend: site.baseurl }}">
+        </span>
+        <nav class="mdl-navigation">
+          {% for page in site.pages %}
+            {% if page.title %}
+            <a class="mdl-navigation__link" href="{{ page.url }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+          <a class="mdl-navigation__link" href="">Blog</a>
+        </nav>
+      </div>
       <main class="mdl-layout__content">
         <div id="backdrop" class="mdl-shadow--2dp"></div>
         <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--3-col">
+          <div class="mdl-cell mdl-cell--3-col mdl-cell--hide-phone mdl-cell--hide-tablet">
             <header id="site-header">
               <img class="logo" src="{{ "/assets/logo.png" | prepend: site.baseurl }}">
               {% include nav.html %}
