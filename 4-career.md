@@ -1,9 +1,20 @@
 ---
 layout: page
-title: Career
+title: Kariyer
 permalink: /career/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+#### Açık Pozisyonlar
+04.02.2016
 
-{% include button label="Apply" raised="true" accent="true" href="mailto:test@te.st?subject=Career" %}
+<div class="mdl-grid">
+
+{% include card title="Mimar" text="Üniversitelerin mimarlık bölümünden mezun olmuş 1-2 yıllık deneyimli mimarlar istihdam edilecektir." actionLabel="Başvur" actionLink="mailto:jobs@rbamimarlik.com?subject=Mimarlık Pozisyonu" %}
+
+{% include card title="Yapı Ressamı" text="Üniversitelerin ilgili bölümlerinden mezun olmuş yapı ressamları istihdam edilecektir." actionLabel="Başvur" actionLink="mailto:jobs@rbamimarlik.com?subject=Yapı Rassamı Pozisyonu" %}
+
+{% include card title="Grafik Tasarımcı" text="Üniversitelerin ilgili bölümlerinden mezun olmuş grafik tasarımcıları istihdam edilecektir." actionLabel="Başvur" actionLink="mailto:jobs@rbamimarlik.com?subject=Grafik Tasarımı Pozisyonu" %}
+
+{% include card title="Stajyer" text="Üniversitelerin ilgili bölümlerinde eğitim alan 2. ve 3. sınıf öğrenciler istihdam edilecektir." actionLabel="Başvur" actionLink="mailto:jobs@rbamimarlik.com?subject=Grafik Tasarımı Pozisyonu" %}
+
+</div>
