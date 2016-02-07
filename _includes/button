@@ -1,4 +1,4 @@
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect {% if include.fab %}mdl-button--fab{% endif %} {% if include.raised %}mdl-button--raised{% endif %} {% if include.primary %}mdl-button--colored{% endif %}{% if include.accent %}mdl-button--accent{% endif %}" href="{{ include.href }}">
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect {% if !include.transformCase %}no-text-transform {% endif %}{% if include.fab %}mdl-button--fab {% endif %}{% if include.raised %}mdl-button--raised {% endif %}{% if include.primary %}mdl-button--colored {% endif %}{% if include.accent %}mdl-button--accent {% endif %}" href="{{ include.href }}">
   {% if include.icon %}<i class="material-icons {% if include.raised and (include.primary or include.accent) %}mdl-color-text--white{% endif %}">{{ include.icon }}</i>{% endif %}
   {{ include.label }}
 </a>
