@@ -12,7 +12,7 @@ permalink: /contact/
       **Adres:** Barış Mah. İzmir Yolu Cad. No: 160  
       Arıkanlar İş Merkezi K:3 D:6  
       16140 Nilüfer / Bursa  
-
+        
     </span>
 
     {% include button accent="true" icon="phone" href="tel:+902244418484" label="0224 441 84 84" tooltip="Telefon" %} 
