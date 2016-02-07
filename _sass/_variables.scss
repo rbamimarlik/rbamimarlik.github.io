@@ -1,0 +1,22 @@
+// import mdl color definitions
+@import '../bower_components/material-design-lite/src/color-definitions.scss';
+
+$palette-rba-50:  #91b5c1;
+$palette-rba-100: #6094a5;
+$palette-rba-200: #4a7483;
+$palette-rba-300: #304c55;
+$palette-rba-400: #253a42;
+$palette-rba-500: #1a292e;
+$palette-rba-600: #0f181a;
+$palette-rba-700: #040607;
+$palette-rba-800: #000000;
+$palette-rba-900: #000000;
+$palette-rba-A100: #91b5c1;
+$palette-rba-A200: #6094a5;
+$palette-rba-A400: #253a42;
+$palette-rba-A700: #040607;
+
+// material design lite variable overrides
+$color-primary:       $palette-rba-500;
+$color-primary-dark:  $palette-rba-700;
+$color-accent:        $palette-brown-300;

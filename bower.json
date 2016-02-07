@@ -1,0 +1,22 @@
+{
+  "name": "rba-web",
+  "authors": [
+    "İsmail Demirbilek <ce.demirbilek@gmail.com>"
+  ],
+  "description": "rbamimarlik company web site",
+  "main": "",
+  "moduleType": [],
+  "license": "",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "~1.1.1"
+  }
+}
