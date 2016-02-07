@@ -1,4 +1,4 @@
-@media (min-width: 840px) {
+@media (min-width: $phone-max-width) {
   .show-only-phone {
     display: none !important;
   }
