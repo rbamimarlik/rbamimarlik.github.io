@@ -3,7 +3,10 @@
 ---
 @charset "utf-8";
 
-@import 'base.scss';
+@import
+  'base',
+  'layout'
+;
 
 body {
   background-color: #EEEEEE;
@@ -54,7 +57,7 @@ main {
       border-right: 2px solid #D7CCC8;
 
       .mdl-list__item a {
-        color: $palette-rba-300;
+        color: unquote("rgb(#{$palette-rba-300})");
       }
 
       .mdl-list__item-secondary-content a {
