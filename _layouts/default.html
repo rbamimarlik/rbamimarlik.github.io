@@ -4,12 +4,19 @@
   {% include head.html %}
 
   <body>
-
-    <div class="mdl-layout mdl-js-layout">
-      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-        <span class="mdl-layout-title">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header show-only-phone">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">
+            <img class="logo" src="{{ "/assets/logo-monochrome.png" | prepend: site.baseurl }}">
+          </span>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <a class="mdl-layout-title" href="{{ "/" | prepend: site.baseurl }}">
           <img class="logo" src="{{ "/assets/logo.png" | prepend: site.baseurl }}">
-        </span>
+        </a>
         <nav class="mdl-navigation">
           {% for page in site.pages %}
             {% if page.title %}
@@ -24,7 +31,9 @@
         <div id="main-grid" class="mdl-grid">
           <div class="mdl-cell mdl-cell--3-col mdl-cell--hide-phone mdl-cell--hide-tablet">
             <header id="site-header">
-              <img class="logo" src="{{ "/assets/logo.png" | prepend: site.baseurl }}">
+              <a href="{{ "/" | prepend: site.baseurl }}">
+                <img class="logo" src="{{ "/assets/logo.png" | prepend: site.baseurl }}">
+              </a>
               {% include nav.html %}
             </header>
           </div>
