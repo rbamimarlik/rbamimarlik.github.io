@@ -104,3 +104,16 @@ footer .social-accounts {
     margin-right: 4px;
   }
 }
+
+.mdl-tabs__panel {
+  padding-top: 20px;
+}
+
+.mdl-dialog {
+  width: 100%;
+  max-width: 1600px;
+  .mdl-dialog__content {
+    max-height: 600px;
+    overflow: auto;
+  }
+}

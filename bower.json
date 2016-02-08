@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "material-design-lite": "~1.1.1"
+    "material-design-lite": "~1.1.1",
+    "dialog-polyfill": "~0.4.2"
   }
 }
