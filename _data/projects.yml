@@ -1,0 +1,33 @@
+- name: 'Dış Mekan Tasarımı'
+  projects:
+    - name: 'Kestel Belediyesi Kültür Merkezi'
+      description: '3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.'
+      location: 'Kestel, Bursa, Türkiye'
+      thumbnail: http://placehold.it/350x200
+      images:
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+- name: 'İç Tasarım'
+  projects:
+    - name: 'Test'
+      description: '3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.'
+      location: 'Kestel, Bursa, Türkiye'
+      thumbnail: http://placehold.it/350x200
+      images:
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+    - name: 'Kestel'
+      description: '3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.'
+      location: 'Kestel, Bursa, Türkiye'
+      thumbnail: http://placehold.it/350x200
+      images:
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
+        - http://placehold.it/650x650
