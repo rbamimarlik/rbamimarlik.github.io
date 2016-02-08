@@ -5,7 +5,8 @@
 
 @import
   'base',
-  'layout'
+  'layout',
+  'mono-icons'
 ;
 
 body {
@@ -92,5 +93,14 @@ main {
         }
       }
     }
+  }
+}
+
+footer .social-accounts {
+  .social-link {
+    .symbol {
+      font-size: 30px;
+    }
+    margin-right: 4px;
   }
 }
