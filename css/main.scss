@@ -105,15 +105,28 @@ footer .social-accounts {
   }
 }
 
-.mdl-tabs__panel {
-  padding-top: 20px;
-}
+.projects {
+  .mdl-tabs__panel {
+    padding-top: 20px;
+  }
 
-.mdl-dialog {
-  width: 100%;
-  max-width: 1600px;
-  .mdl-dialog__content {
-    max-height: 600px;
-    overflow: auto;
+  .mdl-dialog {
+    width: 100%;
+    max-width: 1600px;
+    .mdl-dialog__content {
+      height: 700px;
+      overflow: auto;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .mdl-card {
+    .mdl-card__title-text {
+      color: #fff;
+      text-shadow: 1px 1px 5px #000;
+    }
   }
 }
