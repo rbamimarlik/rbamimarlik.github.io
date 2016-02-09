@@ -44,7 +44,7 @@ permalink: /projects/
             </p>
           </div>
           <div class="mdl-dialog__actions">
-            <button class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">Kapat</button>
+            <button for="dialog-{{forloop.index}}-{{project.name | slugify}}" class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">Kapat</button>
           </div>
         </dialog>
       {% endfor %}
@@ -68,7 +68,7 @@ permalink: /projects/
       });
       dialog.querySelector('button:not([disabled])')
       .addEventListener('click', function() {
-        dialog.close();
+        document.getElementById(this.attributes.for.value).close();
       });
     }
   })(window.dialogPolyfill);
