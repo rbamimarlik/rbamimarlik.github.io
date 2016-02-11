@@ -1,3 +1,6 @@
+# Projects with categories
+# Supports: name, description, location thumbnail and images.
+
 - name: Dış Mekan Tasarımı
   projects:
     - name: Kestel Belediyesi Kültür Merkezi
