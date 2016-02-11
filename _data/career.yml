@@ -1,0 +1,20 @@
+# Open positions
+# supports: name, description, location (required); and thumbnail (optional).
+
+updateDate: 10 Şubat 2016
+positions:
+  - name: Mimar
+    description: Üniversitelerin mimarlık bölümünden mezun olmuş 1-2 yıllık deneyimli mimarlar istihdam edilecektir.
+    location: Bursa
+
+  - name: Yapı Ressamı
+    description: Üniversitelerin ilgili bölümlerinden mezun olmuş yapı ressamları istihdam edilecektir.
+    location: Bursa
+
+  - name: Grafik Tasarımcı
+    description: Üniversitelerin ilgili bölümlerinden mezun olmuş grafik tasarımcıları istihdam edilecektir.
+    location: Bursa
+
+  - name: Stajyer
+    description: Üniversitelerin ilgili bölümlerinde eğitim alan 2. ve 3. sınıf öğrenciler istihdam edilecektir.
+    location: Bursa

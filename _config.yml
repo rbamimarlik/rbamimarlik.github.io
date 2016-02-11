@@ -18,5 +18,8 @@ linkedin_company: rba-mimarlık
 googleplus_username: 107665377844803721309
 facebook_page: rbamimarlik
 
+# used for apply button in career page
+career_email: jobs@rbamimarlik.com
+
 # Build settings
 markdown: kramdown

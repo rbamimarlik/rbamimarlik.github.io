@@ -5,16 +5,28 @@ permalink: /career/
 ---
 
 #### Açık Pozisyonlar
-04.02.2016
+{{ site.data.career.updateDate }}
 
 <div class="mdl-grid">
 
-{% include card title="Mimar" text="Üniversitelerin mimarlık bölümünden mezun olmuş 1-2 yıllık deneyimli mimarlar istihdam edilecektir." actionLabel="Başvur" actionLink="mailto:jobs@rbamimarlik.com?subject=Mimarlık Pozisyonu" %}
-
-{% include card title="Yapı Ressamı" text="Üniversitelerin ilgili bölümlerinden mezun olmuş yapı ressamları istihdam edilecektir." actionLabel="Başvur" actionLink="mailto:jobs@rbamimarlik.com?subject=Yapı Rassamı Pozisyonu" %}
-
-{% include card title="Grafik Tasarımcı" text="Üniversitelerin ilgili bölümlerinden mezun olmuş grafik tasarımcıları istihdam edilecektir." actionLabel="Başvur" actionLink="mailto:jobs@rbamimarlik.com?subject=Grafik Tasarımı Pozisyonu" %}
-
-{% include card title="Stajyer" text="Üniversitelerin ilgili bölümlerinde eğitim alan 2. ve 3. sınıf öğrenciler istihdam edilecektir." actionLabel="Başvur" actionLink="mailto:jobs@rbamimarlik.com?subject=Grafik Tasarımı Pozisyonu" %}
+{% for position in site.data.career.positions %}
+  <div class="mdl-card position mdl-shadow--2dp">
+    <div class="mdl-card__title mdl-card--expand" style="background: url('{{position.thumbnail}}') center no-repeat #64B5F6; width: 350px; height: 200px;">
+      <h2 class="mdl-card__title-text">{{ position.name }}</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+      {{ position.description }}
+    </div>
+    <div class="mdl-card__supporting-text">
+      {% include icon name="location_on" %}
+      {{ position.location }}
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+      <a class="dialog-button mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="mailto:{{site.career_email}}?subject={{position.name}}">
+        Başvur
+      </a>
+    </div>
+  </div>
+{% endfor %}
 
 </div>
