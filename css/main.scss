@@ -67,8 +67,13 @@ main {
     }
   }
 
+  @media (min-width: $phone-max-width) {
+    .page, .home, .post, .blog {
+      margin-top: 60px;
+    }
+  }
+
   .page, .home, .post, .blog {
-    margin-top: 60px;
     &> .content-wrapper {
       width: 100%;
       min-height: 700px;
