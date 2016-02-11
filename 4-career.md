@@ -11,7 +11,7 @@ permalink: /career/
 
 {% for position in site.data.career.positions %}
   <div class="mdl-card position mdl-shadow--2dp">
-    <div class="mdl-card__title mdl-card--expand" style="background: url('{{position.thumbnail}}') center no-repeat #64B5F6; width: 350px; height: 200px;">
+    <div class="mdl-card__title mdl-card--expand" style="background: url('{{position.thumbnail}}') center no-repeat {% if position.color %}{{position.color}}{% else %}#eee{% endif %}; width: 350px; height: 130px;">
       <h2 class="mdl-card__title-text">{{ position.name }}</h2>
     </div>
     <div class="mdl-card__supporting-text">
