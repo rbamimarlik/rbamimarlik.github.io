@@ -110,23 +110,31 @@ footer .social-accounts {
     padding-top: 20px;
   }
 
-  .mdl-dialog {
+  .mdl-card {
+    .mdl-card__title-text {
+      color: #fff;
+      text-shadow: 1px 1px 5px #000;
+    }
+  }
+}
+
+
+.modal {
+  .modal__dialog {
     width: 100%;
     max-width: 1600px;
-    .mdl-dialog__content {
-      height: 700px;
+
+    .modal__content .modal__text {
+      max-height: 700px;
       overflow: auto;
 
       img {
         max-width: 100%;
       }
     }
-  }
 
-  .mdl-card {
-    .mdl-card__title-text {
-      color: #fff;
-      text-shadow: 1px 1px 5px #000;
+    .modal__footer {
+      text-align: right;
     }
   }
 }

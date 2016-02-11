@@ -14,6 +14,7 @@ permalink: /projects/
   {% for category in site.data.projects %}
     <div class="mdl-tabs__panel {% if forloop.first %}is-active{% endif %}" id="{{category.name | slugify}}">
       <div class="mdl-grid">
+      {% assign categoryIndex = forloop.index %}
       {% for project in category.projects %}
         <div class="mdl-card project mdl-shadow--2dp">
           <div class="mdl-card__title mdl-card--expand" style="background: url('{{project.thumbnail}}') center no-repeat #46B6AC; width: 350px; height: 200px;">
@@ -27,49 +28,54 @@ permalink: /projects/
             {{ project.location }}
           </div>
           <div class="mdl-card__actions mdl-card--border">
-            <a for="dialog-{{forloop.index}}-{{project.name | slugify}}" class="dialog-button mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+            <a data-category="{{categoryIndex}}" data-project="{{forloop.index}}" class="dialog-button mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect modal__trigger" data-modal="#modal">
               Detaylar
             </a>
           </div>
         </div>
-
-        <dialog id="dialog-{{forloop.index}}-{{project.name | slugify}}" class="mdl-dialog">
-          <h3 class="mdl-dialog__title">{{project.name}}</h3>
-          <div class="mdl-dialog__content">
-            <p>{{project.description}}</p>
-            <p>
-              {% for image in project.images %}
-              <img src="{{image}}">
-              {% endfor %}
-            </p>
-          </div>
-          <div class="mdl-dialog__actions">
-            <button for="dialog-{{forloop.index}}-{{project.name | slugify}}" class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">Kapat</button>
-          </div>
-        </dialog>
       {% endfor %}
       </div>
     </div>
   {% endfor %}
+  </div>
 </div>
 
 <script>
   // dialogs initialization
-  (function(dialogPolyfill) {
+  (function() {
+    var categories = [
+    {% for category in site.data.projects %}
+      {
+        name: '{{category.name}}',
+        projects: [
+      {% for project in category.projects %}
+        {
+          name: '{{project.name}}',
+          description: '{{project.description}}',
+          location: '{{project.location}}',
+          thumbnail: '{{project.thumbnail}}',
+          images: [
+        {% for image in project.images %}
+            '{{image}}'{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+          ]
+        }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+        ]
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    ];
+
     var dialogButtons = document.getElementsByClassName('dialog-button');
-    for(i=0; i<dialogButtons.length; i++) {
-      var dialogButton = dialogButtons[i];
-      var dialog = document.getElementById(dialogButton.attributes.for.value);
-      if (! dialog.showModal) {
-        dialogPolyfill.registerDialog(dialog);
-      }
+    var dialog = document.getElementById('modal');
+
+    for(var i=0; i<dialogButtons.length; i++) {
+      dialogButton = dialogButtons[i];
       dialogButton.addEventListener('click', function() {
-        document.getElementById(this.attributes.for.value).showModal();
-      });
-      dialog.querySelector('button:not([disabled])')
-      .addEventListener('click', function() {
-        document.getElementById(this.attributes.for.value).close();
+        var project = categories[this.getAttribute('data-category')*1 - 1].projects[this.getAttribute('data-project')*1 - 1];
+        title = dialog.querySelector('.modal__title').innerHTML = '<h2 id="dialog-project-title" class="modal__title-text">' + project.name + '</h2>';
+        dialog.querySelector('.modal__text').innerHTML = '<p id="dialog-project-description">' + project.description + '</p>' + '<p id="dialog-project-images">' + project.images.map(function(image) { return '<img src="' + image + '">'}).join('') + '</p>';
       });
     }
-  })(window.dialogPolyfill);
+  })();
 </script>

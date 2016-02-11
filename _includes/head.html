@@ -8,12 +8,11 @@
 
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/bower_components/dialog-polyfill/dialog-polyfill.css' | prepend: site.baseurl }}"></link>
+  <link rel="stylesheet" href="{{ '/bower_components/material-modal/dist/css/material-modal.min.css' | prepend: site.baseurl }}"></link>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <!-- scripts -->
-  <script src="{{ '/bower_components/dialog-polyfill/dialog-polyfill.js' | prepend: site.baseurl }}"></script>
 
   <!-- favicon & app icons -->
   <link rel="apple-touch-icon" sizes="57x57" href="{{ "/assets/fav/apple-icon-57x57.png" | prepend: site.baseurl }}">
@@ -34,3 +33,23 @@
   <meta name="msapplication-TileImage" content="{{ "/assets/fav/ms-icon-144x144.png" | prepend: site.baseurl }}">
   <meta name="theme-color" content="#0c323d">
 </head>
+
+<div id="modal" class="modal modal__bg">
+  <div class="modal__dialog">
+    <div class="modal__content">
+      <div class="modal__header">
+        <div class="modal__title">
+        </div>
+        <i class="mdl-button--icon mdl-js-button  material-icons modal__close"></i>
+      </div>
+      <div class="modal__text">
+
+      </div>
+      <div class="modal__footer">
+        <a class="mdl-button mdl-button--colored mdl-js-button modal__close">
+          Kapat
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
