@@ -1,5 +1,6 @@
 # Open positions
-# supports: name, description, location (required); and thumbnail (optional).
+# supports: name, description, location (required); and thumbnail, icon (optional).
+# Material Design icons are supported. See https://design.google.com/icons
 
 updateDate: 10 Şubat 2016
 positions:
@@ -18,3 +19,4 @@ positions:
   - name: Stajyer
     description: Üniversitelerin ilgili bölümlerinde eğitim alan 2. ve 3. sınıf öğrenciler istihdam edilecektir.
     location: Bursa
+    icon: school

@@ -26,6 +26,13 @@ permalink: /career/
         Başvur
       </a>
     </div>
+    <div class="mdl-card__menu">
+    {% if position.icon %}
+      <i class="material-icons">{{position.icon}}</i>
+    {% else %}
+      <i class="material-icons">person</i>
+    {% endif %}
+    </div>
   </div>
 {% endfor %}
 
