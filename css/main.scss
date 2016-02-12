@@ -72,15 +72,43 @@ main {
   }
 
   @media (min-width: $phone-max-width) {
-    .page, .home, .post, .blog {
+    .page, .post, .blog {
       margin-top: 60px;
+    }
+
+    .hero {
+      margin-top: 80px;
+    }
+  }
+
+  .hero {
+    background-color: #B0BEC5;
+    height: 350px;
+    padding: 30px 10px 30px;
+    margin-bottom: 15px;
+
+    .main-title {
+      color: #fff;
+      font-weight: 100;
+      font-size: 42px;
+    }
+    .subtitle {
+      color: #eee;
+      font-size: 22px;
+      font-weight: 100;
+    }
+    img {
+      border-radius: 10px;
     }
   }
 
   .page, .home, .post, .blog {
+
       &> .title {
         padding: 15px;
         padding-top: 95px;
+        border-bottom: 1px solid 'rgb(#{$color-accent})';
+
         .title-text {
           font-weight: 300;
           line-height: normal;
