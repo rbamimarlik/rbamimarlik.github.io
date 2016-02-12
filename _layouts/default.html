@@ -39,11 +39,15 @@
           <div id="container" class="mdl-cell mdl-cell--9-col">
             {{ content }}
           </div>
-        </main>
+        </div>
 
-    {% include footer.html %}
-
+        {% include footer.html %}
+      </main>
     </div>
+
+    <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+    <script src="{{ '/bower_components/material-modal/dist/js/material-modal.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/app.js' | prepend: site.baseurl }}"></script>
   </body>
 
 </html>

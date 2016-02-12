@@ -74,19 +74,21 @@ main {
   }
 
   .page, .home, .post, .blog {
-    &> .content-wrapper {
-      width: 100%;
-      min-height: 700px;
-
-      &> .mdl-card__title {
-        height: 168px;
-        .mdl-card__title-text {
-          font-size: 32px;
+      &> .title {
+        padding: 15px;
+        padding-top: 95px;
+        .title-text {
+          font-weight: 300;
+          line-height: normal;
+          font-size: 34px;
+          margin-bottom: 0;
         }
       }
 
-      &> .mdl-card__supporting-text {
+      &> .content {
         min-height: 500px;
+        padding: 10px;
+        background-color: #fff;
 
         .mdl-grid .mdl-card {
           margin: 10px;
@@ -98,7 +100,6 @@ main {
         }
       }
     }
-  }
 }
 
 footer .social-accounts {
