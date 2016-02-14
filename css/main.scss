@@ -165,9 +165,10 @@ footer .social-accounts {
     .modal__content .modal__text {
       max-height: 700px;
       overflow: auto;
-
+      text-align: center;
       img {
         max-width: 100%;
+        margin: 15px;
       }
     }
 
