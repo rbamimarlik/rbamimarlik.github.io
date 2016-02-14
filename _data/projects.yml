@@ -8,25 +8,21 @@
       location: Kestel, Bursa, Türkiye
       thumbnail: https://dl.dropbox.com/s/2qlmne8000xce9b/thumb-1.png?raw=1
       images:
-        - https://dl.dropbox.com/s/1edrkwr8jjxtzo4/file-page3.jpg?raw=1
-        - https://dl.dropbox.com/s/rzr1dsfqi8og6vl/file-page4.jpg?raw=1
-        - https://dl.dropbox.com/s/5lh1xeul3qbr6ue/file-page5.jpg?raw=1
-        - https://dl.dropbox.com/s/ciy8idsa43dckb7/file-page6.jpg?raw=1
-        - https://dl.dropbox.com/s/bb8jaxt23ob5uo1/file-page7.jpg?raw=1
-        - https://dl.dropbox.com/s/gabm6bkdzm8qwwc/file-page8.jpg?raw=1
-        - https://dl.dropbox.com/s/lx1pq40v6w3huef/file-page9.jpg?raw=1
-        - https://dl.dropbox.com/s/diedgv8zhsgvaa3/file-page10.jpg?raw=1
+        - https://dl.dropbox.com/s/wfmwsxkclnmzb8b/K01.jpg
+        - https://dl.dropbox.com/s/oog0mxx7grcbpsg/K02.jpg
+        - https://dl.dropbox.com/s/7uvio0abcu83vbq/K03.jpg
+        - https://dl.dropbox.com/s/79f429n4iyyic5z/K04.jpg
+        - https://dl.dropbox.com/s/krwpagiabgg1c08/K05.jpg
 
     - name: Çekirge Otel
       description: Cephe kaplama tasarımı.
       thumbnail: https://dl.dropbox.com/s/g4deaplkjdyfysq/thumb-2.png?raw=1
       location: Çekirge, Bursa, Türkiye
       images:
-        - https://dl.dropbox.com/s/npogxclikuto5zw/file-page11.jpg?raw=1
-        - https://dl.dropbox.com/s/dowib5xuegth404/file-page12.jpg?raw=1
-        - https://dl.dropbox.com/s/pedrs4v635656cf/file-page13.jpg?raw=1
-        - https://dl.dropbox.com/s/9j382wh4imdcz61/file-page14.jpg?raw=1
-        - https://dl.dropbox.com/s/d8p521bbwnysjf0/file-page15.jpg?raw=1
+        - https://dl.dropbox.com/s/dv7u9ry9nkxfiju/01-pp.jpg
+        - https://dl.dropbox.com/s/guxdj62kz8lo57o/02-pp.jpg
+        - https://dl.dropbox.com/s/n0ko48lbepnieq4/03-pp.jpg
+        - https://dl.dropbox.com/s/7b67ly7pinyazyi/04-ppl.jpg
 
     - name: Mudanya Mağazaları
       description: 3000m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
@@ -43,10 +39,10 @@
       location: İhsaniye, Bursa, Türkiye
       thumbnail: https://dl.dropbox.com/s/ovn49m1yiabdaql/thumb-4.png?raw=1
       images:
-        - https://dl.dropbox.com/s/4g6buoqlnx32io0/file-page21.jpg?raw=1
-        - https://dl.dropbox.com/s/z2y6eeo7d4jdwsh/file-page22.jpg?raw=1
-        - https://dl.dropbox.com/s/zamspisjq6i6bjt/file-page23.jpg?raw=1
-        - https://dl.dropbox.com/s/7prooma3do0avnt/file-page24.jpg?raw=1
+        - https://dl.dropbox.com/s/4toyljwlabp7qgf/01-ppl.jpg
+        - https://dl.dropbox.com/s/a267gnahakazlc1/02-ppl.jpg
+        - https://dl.dropbox.com/s/3zudu531ys6zzr0/03-ppl.jpg
+        - https://dl.dropbox.com/s/jicqoizvkecsh2w/04-ppl.jpg
 
     - name: Eve Anaokulu
       description: 2000m<sup>2</sup> mimari proje ve cephe tasarımı.
@@ -65,12 +61,11 @@
       location: Yıldırım, Bursa, Türkiye
       thumbnail: https://dl.dropbox.com/s/hsv9sscgg3f81th/thumb-6.png?raw=1
       images:
-        - https://dl.dropbox.com/s/ixhgbi4mvi5i5vr/file-page31.jpg?raw=1
-        - https://dl.dropbox.com/s/fnm5ff94w6twk06/file-page32.jpg?raw=1
-        - https://dl.dropbox.com/s/a93f1odv55s9gzc/file-page33.jpg?raw=1
-        - https://dl.dropbox.com/s/ncso97slt19bd4n/file-page34.jpg?raw=1
-        - https://dl.dropbox.com/s/n5dkhnk5s4g1o5c/file-page35.jpg?raw=1
-        - https://dl.dropbox.com/s/37pv2lz8dbfi8do/file-page36.jpg?raw=1
+        - https://dl.dropbox.com/s/ky8f28wq753od3k/01-ppl.jpg
+        - https://dl.dropbox.com/s/ljjth3mrhez04jt/02-ppl.jpg
+        - https://dl.dropbox.com/s/rhnlcjxsjm862qx/03-ppl.jpg
+        - https://dl.dropbox.com/s/sqy8qq7n5m0cn4k/04-ppl.jpg
+        - https://dl.dropbox.com/s/22ogaijdabjh6vw/05-pp.jpg
 
     - name: Büyükorhan Yurdu
       description: 2400m<sup>2</sup> mimari proje ve cephe tasarımı.
@@ -86,16 +81,24 @@
         - https://dl.dropbox.com/s/rdwz4o8poc5g3oh/file-page42.jpg?raw=1
         - https://dl.dropbox.com/s/czxl476qy6por5n/file-page43.jpg?raw=1
 
-- name: İç Tasarım
+- name: İç Mekanlar
   projects:
-    - name: Test
-      description: 3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.
-      location: Kestel, Bursa, Türkiye
-      thumbnail: http://placehold.it/350x200
+    - name: Genel Tasarımlar
+      description: Genel iç mekan tasarım projelerimiz.
+      location: Bursa, Türkiye
+      thumbnail: https://dl.dropbox.com/s/3ansc9mpwe1vqtn/thumb-8.png
       images:
-        - http://placehold.it/650x650
-        - http://placehold.it/650x650
-        - http://placehold.it/650x650
-        - http://placehold.it/650x650
-        - http://placehold.it/650x650
-        - http://placehold.it/650x650
+        - https://dl.dropbox.com/s/b4r0tag9ba6r5h2/Banyo.jpg
+        - https://dl.dropbox.com/s/16zey7dzvvhr1no/DblksSalon%20%281%29.jpg
+        - https://dl.dropbox.com/s/16zey7dzvvhr1no/DblksSalon%20%281%29.jpg
+        - https://dl.dropbox.com/s/nhuraqdck3zhvzf/Merdiven%20%281%29.jpg
+        - https://dl.dropbox.com/s/8vqzwukmzk395ah/Merdiven%20%282%29.jpg
+        - https://dl.dropbox.com/s/8rrppilduwjmhwe/N_katSalon%20%281%29.jpg
+        - https://dl.dropbox.com/s/b8x8omfybzfib90/N_katSalon%20%282%29.jpg
+        - https://dl.dropbox.com/s/ep1ofog51z6mjv6/P.%20Salon-1.jpg
+        - https://dl.dropbox.com/s/ip5gb1jgmhl31vv/P.%20Salon.jpg
+        - https://dl.dropbox.com/s/7d6lbq78d52b8e5/Salon-1.jpg
+        - https://dl.dropbox.com/s/1ftf8t5qc9x8ccu/Salon-2.jpg
+        - https://dl.dropbox.com/s/sepoix7n1tfg61y/Salon-3.jpg
+        - https://dl.dropbox.com/s/1u79lqsohop18vh/ZeminMtfk%20%281%29.jpg
+        - https://dl.dropbox.com/s/hrrjma7e7b9gtbp/ZeminMtfk%20%282%29.jpg
