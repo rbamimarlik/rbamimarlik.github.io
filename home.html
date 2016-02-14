@@ -9,8 +9,10 @@ permalink: /
         <h3 class="main-title">Tasarım, Modelleme ve Uygulama</h3>
         <h4 class="subtitle">Mimari ve mühendislik projelerinizde üstün standartlarla çözüm ortağınız oluyoruz.</h4>
       </div>
-      <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--hide-phone mdl-typography--text-center">
-        <img src="http://placehold.it/300x250">
+      <div id="showcase" class="mdl-cell mdl-cell--6-col-desktop mdl-cell--hide-phone mdl-typography--text-center">
+        {% for item in site.data.home.showcase %}
+          <img class="item" src="{{item.image}}" />
+        {% endfor %}
       </div>
     </div>
   </div>
@@ -80,3 +82,19 @@ permalink: /
     </div>
   </div>
 </div>
+
+<script>
+  (function() {
+    function autoChange() {
+      var activeEl = document.querySelector('#showcase .item.active') || document.querySelector('#showcase .item');
+      // deactivate current item
+      activeEl.className = 'item';
+      var nextEl = activeEl.nextElementSibling || document.querySelector('#showcase .item');
+      // activate next item
+      nextEl.className = 'item active';
+      setTimeout(autoChange, 5000);
+    };
+
+    autoChange();
+  })();
+</script>
