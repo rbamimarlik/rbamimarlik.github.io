@@ -6,7 +6,7 @@
     - name: Kestel Belediyesi Kültür Merkezi
       description: 3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.
       location: Kestel, Bursa, Türkiye
-      thumbnail: /project-files/Kestel-Kultur-Merkezi/0-thumb.png
+      thumbnail: /project-files/Kestel-Kultur-Merkezi/0-thumb.jpg
       images:
         - /project-files/Kestel-Kultur-Merkezi/1.jpg
         - /project-files/Kestel-Kultur-Merkezi/2.jpg
@@ -16,7 +16,7 @@
 
     - name: Çekirge Otel
       description: Cephe kaplama tasarımı.
-      thumbnail: /project-files/Cekirge-Otel/0-thumb.png
+      thumbnail: /project-files/Cekirge-Otel/0-thumb.jpg
       location: Çekirge, Bursa, Türkiye
       images:
         - /project-files/Cekirge-Otel/1.jpg
@@ -26,7 +26,7 @@
 
     - name: Mudanya Mağazaları
       description: 3000m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
-      thumbnail: /project-files/Mudanya-Magazalari/0-thumb.png
+      thumbnail: /project-files/Mudanya-Magazalari/0-thumb.jpg
       location: Mudanya, Bursa, Türkiye
       images:
         - /project-files/Mudanya-Magazalari/1.jpg
@@ -37,7 +37,7 @@
     - name: Karaman Öğrenci Yurdu
       description: Cephe kaplama tasarımı.
       location: İhsaniye, Bursa, Türkiye
-      thumbnail: /project-files/Karaman-Yurdu/0-thumb.png
+      thumbnail: /project-files/Karaman-Yurdu/0-thumb.jpg
       images:
         - /project-files/Karaman-Yurdu/1.jpg
         - /project-files/Karaman-Yurdu/2.jpg
@@ -47,7 +47,7 @@
     - name: Eve Anaokulu
       description: 2000m<sup>2</sup> mimari proje ve cephe tasarımı.
       location: Nilüfer, Bursa, Türkiye
-      thumbnail: /project-files/Eve-Anaokulu/0-thumb.png
+      thumbnail: /project-files/Eve-Anaokulu/0-thumb.jpg
       images:
         - /project-files/Eve-Anaokulu/1.jpg
         - /project-files/Eve-Anaokulu/2.jpg
@@ -59,7 +59,7 @@
     - name: Hocataşkın Yurdu
       description: 1700m<sup>2</sup> mimari proje ve cephe tasarımı.
       location: Yıldırım, Bursa, Türkiye
-      thumbnail: /project-files/Hocataskin-Yurdu/0-thumb.png
+      thumbnail: /project-files/Hocataskin-Yurdu/0-thumb.jpg
       images:
         - /project-files/Hocataskin-Yurdu/1.jpg
         - /project-files/Hocataskin-Yurdu/2.jpg
@@ -70,7 +70,7 @@
     - name: Büyükorhan Yurdu
       description: 2400m<sup>2</sup> mimari proje ve cephe tasarımı.
       location: Büyükorhan, Bursa, Türkiye
-      thumbnail: /project-files/Buyukorhan-Yurdu/0-thumb.png
+      thumbnail: /project-files/Buyukorhan-Yurdu/0-thumb.jpg
       images:
         - /project-files/Buyukorhan-Yurdu/1.jpg
         - /project-files/Buyukorhan-Yurdu/2.jpg
@@ -85,7 +85,7 @@
     - name: Genel Tasarımlar
       description: Genel iç mekan tasarım projelerimiz.
       location: Bursa, Türkiye
-      thumbnail: /project-files/Ic-Mekanlar/0-thumb.png
+      thumbnail: /project-files/Ic-Mekanlar/0-thumb.jpg
       images:
         - /project-files/Ic-Mekanlar/1.jpg
         - /project-files/Ic-Mekanlar/2.jpg
