@@ -9,9 +9,9 @@ permalink: /contact/
 <div class="mdl-grid">
   <div class="mdl-cell mdl-cell--6-col">
     <span markdown="1">
-      **Adres:** Barış Mah. İzmir Yolu Cad. No: 160  
-      Arıkanlar İş Merkezi K:3 D:6  
-      16140 Nilüfer / Bursa  
+      Barış Mah. İzmir Yolu Cad. No.160 
+      Arıkanlar İş Merkezi K.3/6 
+      Nilüfer 16140 Bursa Türkiye 
         
     </span>
 
