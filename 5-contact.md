@@ -15,8 +15,8 @@ permalink: /contact/
         
     </span>
 
-    {% include button accent="true" icon="phone" href="tel:+902244418484" label="0224 441 84 84" tooltip="Telefon" %} 
-    {% include button accent="true" icon="print" label="0224 999 34 19" tooltip="Faks"%}
+    {% include button accent="true" icon="phone" href="tel:90 224 441 8484" label="90 224 441 8484" tooltip="Telefon" %} 
+    {% include button accent="true" icon="print" label="90 224 999 3419" tooltip="Faks"%}
     {% include button accent="true" icon="mail" label="info@rbamimarlik.com" transformCase="false" href="mailto:info@rbamimarlik.com" tooltip="Faks"%}
   </div>
   
