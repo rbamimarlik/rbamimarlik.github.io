@@ -9,31 +9,23 @@ permalink: /career/
 
 <div class="mdl-grid">
 
+<ul class="demo-list-two mdl-list">
 {% for position in site.data.career.positions %}
-  <div class="mdl-card position mdl-shadow--2dp">
-    <div class="mdl-card__title mdl-card--expand" style="background: url('{{position.thumbnail}}') center no-repeat {% if position.color %}{{position.color}}{% else %}#eee{% endif %}; width: 350px; height: 130px;">
-      <h2 class="mdl-card__title-text">{{ position.name }}</h2>
-    </div>
-    <div class="mdl-card__supporting-text">
-      {{ position.description }}
-    </div>
-    <div class="mdl-card__supporting-text">
-      {% include icon name="location_on" %}
-      {{ position.location }}
-    </div>
-    <div class="mdl-card__actions mdl-card--border">
-      <a class="dialog-button mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect" href="mailto:{{site.career_email}}?subject={{position.name}}">
-        Başvur
-      </a>
-    </div>
-    <div class="mdl-card__menu">
-    {% if position.icon %}
-      <i class="material-icons">{{position.icon}}</i>
-    {% else %}
-      <i class="material-icons">person</i>
-    {% endif %}
-    </div>
-  </div>
+  <li class="mdl-list__item mdl-list__item--two-line">
+    <span class="mdl-list__item-primary-content">
+      {% if position.icon %}
+        <i class="material-icons mdl-list__item-avatar">{{position.icon}}</i>
+      {% else %}
+        <i class="material-icons mdl-list__item-avatar">person</i>
+      {% endif %}
+      <span>{{ position.name }}</span>
+      <span class="mdl-list__item-sub-title">{{ position.location }}</span>
+    </span>
+    <span class="mdl-list__item-secondary-content">
+      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">more_horiz</i></a>
+    </span>
+  </li>
 {% endfor %}
+</ul>
 
 </div>
