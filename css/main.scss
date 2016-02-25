@@ -87,10 +87,21 @@ main {
     padding: 30px 10px 30px;
     margin-bottom: 15px;
 
+    .hero-text {
+      background: -moz-linear-gradient(top, rgba(0,0,0,0.3) 71%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 71%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3) 71%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#4dffffff',GradientType=0 );
+      margin: -30px -10px 0;
+      padding: 15px;
+      padding-top: 70px;
+    }
+
     .main-title {
       color: #fff;
       font-weight: 100;
-      font-size: 42px;
+      font-size: 62px;
+      line-height: 62px;
     }
     .subtitle {
       color: #eee;
@@ -148,12 +159,21 @@ main {
     }
 }
 
-footer .social-accounts {
-  .social-link {
-    .symbol {
-      font-size: 30px;
+footer {
+  background-color: #ddd !important;
+  .social-accounts {
+    .social-link {
+      .symbol {
+        font-size: 40px;
+      }
+      margin-right: 8px;
     }
-    margin-right: 4px;
+  }
+}
+
+.social-link.twitter {
+  a {
+    color: #00ACED;
   }
 }
 
