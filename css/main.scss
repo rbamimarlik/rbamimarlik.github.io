@@ -171,8 +171,29 @@ footer {
   }
 }
 
-.social-link.twitter {
-  a {
+.social-link {
+  .symbol {
+    transition: color .5s;
+  }
+  &.pinterest:hover .symbol {
+    color: #CC2028;
+  }
+  &.linkedin:hover .symbol {
+    color: #007BB6;
+  }
+  &.gplus:hover .symbol {
+    color: #DC4C41;
+  }
+  &.facebook:hover .symbol {
+    color: #3B5999;
+  }
+  &.twitter:hover .symbol {
+      color: #00ACED;
+  }
+}
+
+.social-link.twitter:hover {
+  .symbol {
     color: #00ACED;
   }
 }
