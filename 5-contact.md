@@ -7,7 +7,7 @@ permalink: /contact/
 
 #### Bursa
 
-<iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJq3ZJHR4UyhQR8QBXVOvDqEA&key=AIzaSyChMUIchdP2-fszPVVUilKNnktLl93QWfE" allowfullscreen></iframe>
+<div id="map" style="height: 300px;"></div>
 <br>
 
 Barış Mah. İzmir Yolu Cad. No.160 
@@ -16,3 +16,26 @@ Arıkanlar İş Merkezi 3/6 Nilüfer, 16140, **Bursa, Türkiye**
 {% include button accent="true" icon="phone" href="tel:90 224 441 8484" label="90 224 441 8484" tooltip="Telefon" %} 
 {% include button accent="true" icon="print" label="90 224 999 3419" tooltip="Faks"%}
 {% include button accent="true" icon="mail" label="info@rbamimarlik.com" transformCase="false" href="mailto:info@rbamimarlik.com" tooltip="Faks"%}
+
+<script>
+  function initMap() {
+    //Google Map Skin - Get more at http://snazzymaps.com/
+    var myLatLng = new google.maps.LatLng(40.2126473,28.9701777);
+    var mapOpts = {
+      center: myLatLng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      zoom: 16,
+      scrollWheel: false,
+      styles: [{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#e0efef"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"hue":"#1900ff"},{"color":"#c0e8e8"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels"},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":700}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#7dcdcd"}]}]
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), mapOpts);
+    // Create a marker and set its position.
+    var marker = new google.maps.Marker({
+      map: map,
+      position: myLatLng,
+      title: 'RBA Mimarlık'
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChMUIchdP2-fszPVVUilKNnktLl93QWfE&libraries=visualization&callback=initMap">
