@@ -20,7 +20,7 @@ Arıkanlar İş Merkezi 3/6 Nilüfer, 16140, **Bursa, Türkiye**
 <script>
   function initMap() {
     //Google Map Skin - Get more at http://snazzymaps.com/
-    var myLatLng = new google.maps.LatLng(40.2126473,28.9701777);
+    var myLatLng = new google.maps.LatLng(40.212474, 28.971091);
     var mapOpts = {
       center: myLatLng,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
