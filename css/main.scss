@@ -169,6 +169,23 @@ footer {
       margin-right: 8px;
     }
   }
+
+  .fora-promote {
+    height: 16px;
+    a {
+      position: relative;
+      top: -13px;
+      img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition: all .5s;
+        &:hover {
+          -webkit-filter: none;
+          filter: none;
+        }
+      }
+    }
+  }
 }
 
 .social-link {
