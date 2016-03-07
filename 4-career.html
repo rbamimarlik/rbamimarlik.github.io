@@ -22,10 +22,38 @@ permalink: /career/
       <span class="mdl-list__item-sub-title">{{ position.location }}</span>
     </span>
     <span class="mdl-list__item-secondary-content">
-      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">more_horiz</i></a>
+      <a data-position="{{forloop.index}}" class="mdl-list__item-secondary-action modal__trigger dialog-button" href="#" data-modal="#modal-career"><i class="material-icons">more_horiz</i></a>
     </span>
   </li>
 {% endfor %}
 </ul>
 
 </div>
+
+
+<script>
+  // dialogs initialization
+  (function() {
+    var positions = [
+    {% for position in site.data.career.positions %}
+      {
+        name: '{{position.name}}',
+        description: '{{position.description}}',
+        location: '{{position.location}}',
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    ];
+
+    var dialogButtons = document.getElementsByClassName('dialog-button');
+    var dialog = document.getElementById('modal-career');
+
+    for(var i=0; i<dialogButtons.length; i++) {
+      dialogButton = dialogButtons[i];
+      dialogButton.addEventListener('click', function() {
+        var position = positions[this.getAttribute('data-position')*1 - 1];
+        title = dialog.querySelector('.modal__title').innerHTML = '<h2 id="dialog-position-title" class="modal__title-text">Pozisyon: ' + position.name + '</h2>';
+        dialog.querySelector('.modal__text').innerHTML = '<p id="dialog-position-description">' + position.description + '</p>'
+      });
+    }
+  })();
+</script>
