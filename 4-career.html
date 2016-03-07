@@ -11,7 +11,7 @@ permalink: /career/
 
 <ul class="demo-list-two mdl-list">
 {% for position in site.data.career.positions %}
-  <li class="mdl-list__item mdl-list__item--two-line">
+  <li class="mdl-list__item mdl-list__item--two-line modal__trigger" data-modal="#modal-career" data-position="{{forloop.index}}">
     <span class="mdl-list__item-primary-content">
       {% if position.icon %}
         <i class="material-icons mdl-list__item-avatar">{{position.icon}}</i>
@@ -20,9 +20,6 @@ permalink: /career/
       {% endif %}
       <span>{{ position.name }}</span>
       <span class="mdl-list__item-sub-title">{{ position.location }}</span>
-    </span>
-    <span class="mdl-list__item-secondary-content">
-      <a data-position="{{forloop.index}}" class="mdl-list__item-secondary-action modal__trigger dialog-button" href="#" data-modal="#modal-career"><i class="material-icons">more_horiz</i></a>
     </span>
   </li>
 {% endfor %}
@@ -44,7 +41,7 @@ permalink: /career/
     {% endfor %}
     ];
 
-    var dialogButtons = document.getElementsByClassName('dialog-button');
+    var dialogButtons = document.getElementsByClassName('modal__trigger');
     var dialog = document.getElementById('modal-career');
 
     for(var i=0; i<dialogButtons.length; i++) {
