@@ -234,13 +234,23 @@ footer {
     width: 100%;
     max-width: 1600px;
 
-    .modal__content .modal__text {
-      max-height: 700px;
-      overflow: auto;
-      text-align: center;
-      img {
-        max-width: 100%;
-        margin: 15px;
+    .modal__content {
+      background: #1A292E;
+      color: #eee;
+      .modal__header .modal__title {
+        color: #eee;
+      }
+      .modal__text {
+        overflow: auto;
+        text-align: center;
+        padding: 16px 41px 16px;
+        width: calc(100% - 82px);
+        color: #eee;
+
+        img {
+          margin: 0 auto;
+          max-height: 500px;
+        }
       }
     }
 

@@ -74,7 +74,13 @@ permalink: /projects/
       dialogButton.addEventListener('click', function() {
         var project = categories[this.getAttribute('data-category')*1 - 1].projects[this.getAttribute('data-project')*1 - 1];
         title = dialog.querySelector('.modal__title').innerHTML = '<h2 id="dialog-project-title" class="modal__title-text">' + project.name + '</h2>';
-        dialog.querySelector('.modal__text').innerHTML = '<p id="dialog-project-description">' + project.description + '</p>' + '<p id="dialog-project-images">' + project.images.map(function(image) { return '<img src="' + image + '">'}).join('') + '</p>';
+        dialog.querySelector('.modal__text').innerHTML = '<div id="dialog-project-images"></div>' + '<p id="dialog-project-description">' + project.description + '</p>'
+        sle = $('#dialog-project-images');
+        // init carousel
+        sle.slick();
+        for(i = 0; i < project.images.length; i++) {
+          sle.slick('slickAdd','<div><img src="' + project.images[i] + '"></div>');
+        }
       });
     }
   })();
