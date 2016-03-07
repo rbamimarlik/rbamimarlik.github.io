@@ -232,7 +232,7 @@ footer {
 #modal.modal {
   .modal__dialog {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1200px;
 
     .modal__content {
       background: #1A292E;
@@ -250,6 +250,10 @@ footer {
         img {
           margin: 0 auto;
           max-height: 500px;
+        }
+
+        .slick-dots li button:before {
+          color: unquote('rgb(#{$color-accent})');
         }
       }
     }
