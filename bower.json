@@ -18,6 +18,7 @@
   ],
   "dependencies": {
     "material-design-lite": "~1.1.1",
-    "material-modal": "~0.1.2"
+    "material-modal": "~0.1.2",
+    "slick-carousel": "^1.5.9"
   }
 }
