@@ -77,7 +77,9 @@ permalink: /projects/
         dialog.querySelector('.modal__text').innerHTML = '<div id="dialog-project-images"></div>' + '<p id="dialog-project-description">' + project.description + '</p>'
         sle = $('#dialog-project-images');
         // init carousel
-        sle.slick();
+        sle.slick({
+          dots: true
+        });
         for(i = 0; i < project.images.length; i++) {
           sle.slick('slickAdd','<div><img src="' + project.images[i] + '"></div>');
         }
