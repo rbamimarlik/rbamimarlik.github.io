@@ -41,6 +41,7 @@
         - /project-files/Mudanya-Magazalari/1.jpg
         - /project-files/Mudanya-Magazalari/2.jpg
         - /project-files/Mudanya-Magazalari/3.jpg
+        - /project-files/Mudanya-Magazalari/4.jpg
 
     - name: Karaman Öğrenci Yurdu
       description: Cephe kaplama tasarımı.
@@ -61,8 +62,6 @@
         - /project-files/Eve-Anaokulu/2.jpg
         - /project-files/Eve-Anaokulu/3.jpg
         - /project-files/Eve-Anaokulu/4.jpg
-        - /project-files/Eve-Anaokulu/5.jpg
-        - /project-files/Eve-Anaokulu/6.jpg
 
     - name: Hocataşkın Apartman Projesi
       description: 1700m<sup>2</sup> mimari proje ve cephe tasarımı.
