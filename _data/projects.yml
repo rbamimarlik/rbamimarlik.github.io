@@ -76,7 +76,7 @@
     - name: Qudro Apartman Projesi
       description: 
       location: Bursa, Türkiye
-      thumbnail: /project-files/Qudro-Apartman/1.jpg
+      thumbnail: /project-files/Qudro-Apartman/2.jpg
       images:
         - /project-files/Qudro-Apartman/1.jpg
         - /project-files/Qudro-Apartman/2.jpg
@@ -86,7 +86,7 @@
     - name: Toprak Apartman Projesi
       description: 
       location: Bursa, Türkiye
-      thumbnail: /project-files/Toprak-Apartman/1.jpg
+      thumbnail: /project-files/Toprak-Apartman/2.jpg
       images:
         - /project-files/Toprak-Apartman/1.jpg
         - /project-files/Toprak-Apartman/2.jpg
