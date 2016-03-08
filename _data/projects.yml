@@ -16,7 +16,7 @@
 
     - name: Kestel Konut Projesi
       location: Kestel, Bursa, Türkiye
-      thumbnail: 
+      thumbnail: /project-files/Kestel-Konut/1.jpg
       images:
         - /project-files/Kestel-Konut/1.jpg
         - /project-files/Kestel-Konut/2.jpg
