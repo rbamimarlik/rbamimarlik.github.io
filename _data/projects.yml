@@ -67,19 +67,6 @@
         - /project-files/Hocataskin-Yurdu/4.jpg
         - /project-files/Hocataskin-Yurdu/5.jpg
 
-    - name: Büyükorhan Yurdu
-      description: 2400m<sup>2</sup> mimari proje ve cephe tasarımı.
-      location: Büyükorhan, Bursa, Türkiye
-      thumbnail: /project-files/Buyukorhan-Yurdu/0-thumb.jpg
-      images:
-        - /project-files/Buyukorhan-Yurdu/1.jpg
-        - /project-files/Buyukorhan-Yurdu/2.jpg
-        - /project-files/Buyukorhan-Yurdu/3.jpg
-        - /project-files/Buyukorhan-Yurdu/4.jpg
-        - /project-files/Buyukorhan-Yurdu/5.jpg
-        - /project-files/Buyukorhan-Yurdu/6.jpg
-        - /project-files/Buyukorhan-Yurdu/7.jpg
-
 - name: İç Mekanlar
   projects:
     - name: Genel Tasarımlar
@@ -101,3 +88,5 @@
         - /project-files/Ic-Mekanlar/12.jpg
         - /project-files/Ic-Mekanlar/13.jpg
         - /project-files/Ic-Mekanlar/14.jpg
+        
+        
