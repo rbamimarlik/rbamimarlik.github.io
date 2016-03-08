@@ -3,7 +3,7 @@
 
 - name: Dış Mekan Tasarımı
   projects:
-    - name: Kestel Belediyesi Kültür Merkezi
+    - name: Kestel Belediyesi Kültür & Kongre Merkezi
       description: 3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.
       location: Kestel, Bursa, Türkiye
       thumbnail: /project-files/Kestel-Kultur-Merkezi/0-thumb.jpg
@@ -13,6 +13,15 @@
         - /project-files/Kestel-Kultur-Merkezi/3.jpg
         - /project-files/Kestel-Kultur-Merkezi/4.jpg
         - /project-files/Kestel-Kultur-Merkezi/5.jpg
+
+  - name: Kestel Konut Projesi
+      location: Kestel, Bursa, Türkiye
+      thumbnail: /project-files/Kestel-Konut/1.jpg
+      images:
+        - /project-files/Kestel-Konut/1.jpg
+        - /project-files/Kestel-Konut/2.jpg
+        - /project-files/Kestel-Konut/3.jpg
+        - /project-files/Kestel-Konut/4.jpg
 
     - name: Çekirge Otel
       description: Cephe kaplama tasarımı.
