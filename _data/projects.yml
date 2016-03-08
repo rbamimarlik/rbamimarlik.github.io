@@ -76,6 +76,14 @@
         - /project-files/Hocataskin-Yurdu/4.jpg
         - /project-files/Hocataskin-Yurdu/5.jpg
 
+    - name: Akçalar Konut Projesi
+      description: 
+      location: Nilüfer, Bursa, Türkiye
+      thumbnail: /project-files/Akcalar-Konut/1.jpg
+      images:
+        - /project-files/Akcalar-Konut/1.jpg
+
+
 - name: İç Mekanlar
   projects:
     - name: Genel Tasarımlar
