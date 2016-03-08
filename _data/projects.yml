@@ -73,6 +73,26 @@
         - /project-files/Hocataskin-Yurdu/4.jpg
         - /project-files/Hocataskin-Yurdu/5.jpg
 
+    - name: Qudro Apartman Projesi
+      description: 
+      location: Bursa, Türkiye
+      thumbnail: /project-files/Qudro-Apartman/1.jpg
+      images:
+        - /project-files/Qudro-Apartman/1.jpg
+        - /project-files/Qudro-Apartman/2.jpg
+        - /project-files/Qudro-Apartman/3.jpg
+        - /project-files/Qudro-Apartman/4.jpg
+
+    - name: Toprak Apartman Projesi
+      description: 
+      location: Bursa, Türkiye
+      thumbnail: /project-files/Toprak-Apartman/1.jpg
+      images:
+        - /project-files/Toprak-Apartman/1.jpg
+        - /project-files/Toprak-Apartman/2.jpg
+        - /project-files/Toprak-Apartman/3.jpg
+        - /project-files/Toprak-Apartman/4.jpg
+
     - name: Akçalar Konut Projesi
       description: 
       location: Nilüfer, Bursa, Türkiye
