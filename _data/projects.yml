@@ -14,9 +14,9 @@
         - /project-files/Kestel-Kultur-Merkezi/4.jpg
         - /project-files/Kestel-Kultur-Merkezi/5.jpg
 
-  - name: Kestel Konut Projesi
+    - name: Kestel Konut Projesi
       location: Kestel, Bursa, Türkiye
-      thumbnail: /project-files/Kestel-Konut/1.jpg
+      thumbnail: 
       images:
         - /project-files/Kestel-Konut/1.jpg
         - /project-files/Kestel-Konut/2.jpg
