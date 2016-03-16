@@ -1,8 +1,14 @@
 <nav>
   <div class="lang-selection">
-    <a href="{{page.url | replace_first: lang, 'tr' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'tr' %}mdl-button--raised{% endif %}">TR</a>
-    <a href="{{page.url | replace_first: lang, 'en' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'en' %}mdl-button--raised{% endif %}">EN</a>
-    <a href="{{page.url | replace_first: lang, 'ar' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'ar' %}mdl-button--raised{% endif %}">AR</a>
+    {% if page.url == '/' %}
+      {% assign page_url = '/tr' %}
+    {% else %}
+      {% assign page_url = page.url %}
+    {% endif %}
+
+    <a href="{{page_url | replace_first: lang, 'tr' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'tr' %}mdl-button--raised{% endif %}">TR</a>
+    <a href="{{page_url | replace_first: lang, 'en' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'en' %}mdl-button--raised{% endif %}">EN</a>
+    <a href="{{page_url | replace_first: lang, 'ar' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'ar' %}mdl-button--raised{% endif %}">AR</a>
   </div>
   <ul class="mdl-list">
     {% assign site_pages = site.pages | sort: 'order' %}
