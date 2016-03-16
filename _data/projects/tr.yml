@@ -3,7 +3,7 @@
 
 - name: Dış Mekan Tasarımı
   projects:
-    - name: Kestel Belediyesi Kültür Merkezi
+    - name: Kestel Belediyesi Kültür & Kongre Merkezi
       description: 3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.
       location: Kestel, Bursa, Türkiye
       thumbnail: /project-files/Kestel-Kultur-Merkezi/0-thumb.jpg
@@ -14,17 +14,26 @@
         - /project-files/Kestel-Kultur-Merkezi/4.jpg
         - /project-files/Kestel-Kultur-Merkezi/5.jpg
 
-    - name: Çekirge Otel
+    - name: Kestel Konut Projesi
+      location: Kestel, Bursa, Türkiye
+      thumbnail: /project-files/Kestel-Konut/1.jpg
+      images:
+        - /project-files/Kestel-Konut/1.jpg
+        - /project-files/Kestel-Konut/2.jpg
+        - /project-files/Kestel-Konut/3.jpg
+        - /project-files/Kestel-Konut/4.jpg
+
+    - name: Çekirge Otel Projesi
       description: Cephe kaplama tasarımı.
       thumbnail: /project-files/Cekirge-Otel/0-thumb.jpg
-      location: Çekirge, Bursa, Türkiye
+      location: Osmangazi, Bursa, Türkiye
       images:
         - /project-files/Cekirge-Otel/1.jpg
         - /project-files/Cekirge-Otel/2.jpg
         - /project-files/Cekirge-Otel/3.jpg
         - /project-files/Cekirge-Otel/4.jpg
 
-    - name: Mudanya Mağazaları
+    - name: Mudanya Mağaza Projesi
       description: 3000m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
       thumbnail: /project-files/Mudanya-Magazalari/0-thumb.jpg
       location: Mudanya, Bursa, Türkiye
@@ -32,11 +41,10 @@
         - /project-files/Mudanya-Magazalari/1.jpg
         - /project-files/Mudanya-Magazalari/2.jpg
         - /project-files/Mudanya-Magazalari/3.jpg
-        - /project-files/Mudanya-Magazalari/4.jpg
 
     - name: Karaman Öğrenci Yurdu
       description: Cephe kaplama tasarımı.
-      location: İhsaniye, Bursa, Türkiye
+      location: Nilüfer, Bursa, Türkiye
       thumbnail: /project-files/Karaman-Yurdu/0-thumb.jpg
       images:
         - /project-files/Karaman-Yurdu/1.jpg
@@ -44,19 +52,17 @@
         - /project-files/Karaman-Yurdu/3.jpg
         - /project-files/Karaman-Yurdu/4.jpg
 
-    - name: Eve Anaokulu
+    - name: Odunluk Anaokulu Projesi
       description: 2000m<sup>2</sup> mimari proje ve cephe tasarımı.
       location: Nilüfer, Bursa, Türkiye
       thumbnail: /project-files/Eve-Anaokulu/0-thumb.jpg
       images:
-        - /project-files/Eve-Anaokulu/1.jpg
-        - /project-files/Eve-Anaokulu/2.jpg
-        - /project-files/Eve-Anaokulu/3.jpg
-        - /project-files/Eve-Anaokulu/4.jpg
-        - /project-files/Eve-Anaokulu/5.jpg
-        - /project-files/Eve-Anaokulu/6.jpg
+        - /project-files/Odunluk-Anaokulu/1.jpg
+        - /project-files/Odunluk-Anaokulu/2.jpg
+        - /project-files/Odunluk-Anaokulu/3.jpg
+        - /project-files/Odunluk-Anaokulu/4.jpg
 
-    - name: Hocataşkın Yurdu
+    - name: Hocataşkın Apartman Projesi
       description: 1700m<sup>2</sup> mimari proje ve cephe tasarımı.
       location: Yıldırım, Bursa, Türkiye
       thumbnail: /project-files/Hocataskin-Yurdu/0-thumb.jpg
@@ -67,18 +73,33 @@
         - /project-files/Hocataskin-Yurdu/4.jpg
         - /project-files/Hocataskin-Yurdu/5.jpg
 
-    - name: Büyükorhan Yurdu
-      description: 2400m<sup>2</sup> mimari proje ve cephe tasarımı.
-      location: Büyükorhan, Bursa, Türkiye
-      thumbnail: /project-files/Buyukorhan-Yurdu/0-thumb.jpg
+    - name: Qudro Apartman Projesi
+      description:
+      location: Bursa, Türkiye
+      thumbnail: /project-files/Qudro-Apartman/2.jpg
       images:
-        - /project-files/Buyukorhan-Yurdu/1.jpg
-        - /project-files/Buyukorhan-Yurdu/2.jpg
-        - /project-files/Buyukorhan-Yurdu/3.jpg
-        - /project-files/Buyukorhan-Yurdu/4.jpg
-        - /project-files/Buyukorhan-Yurdu/5.jpg
-        - /project-files/Buyukorhan-Yurdu/6.jpg
-        - /project-files/Buyukorhan-Yurdu/7.jpg
+        - /project-files/Qudro-Apartman/1.jpg
+        - /project-files/Qudro-Apartman/2.jpg
+        - /project-files/Qudro-Apartman/3.jpg
+        - /project-files/Qudro-Apartman/4.jpg
+
+    - name: Toprak Apartman Projesi
+      description:
+      location: Bursa, Türkiye
+      thumbnail: /project-files/Toprak-Apartman/2.jpg
+      images:
+        - /project-files/Toprak-Apartman/1.jpg
+        - /project-files/Toprak-Apartman/2.jpg
+        - /project-files/Toprak-Apartman/3.jpg
+        - /project-files/Toprak-Apartman/4.jpg
+
+    - name: Akçalar Konut Projesi
+      description: 3500m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
+      location: Nilüfer, Bursa, Türkiye
+      thumbnail: /project-files/Akcalar-Konut/1.jpg
+      images:
+        - /project-files/Akcalar-Konut/1.jpg
+
 
 - name: İç Mekanlar
   projects:
@@ -101,3 +122,4 @@
         - /project-files/Ic-Mekanlar/12.jpg
         - /project-files/Ic-Mekanlar/13.jpg
         - /project-files/Ic-Mekanlar/14.jpg
+
