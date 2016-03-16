@@ -1,6 +1,12 @@
 ##
 # App wide common translations
 
+# web site description
+description:
+  tr: 'Mimarlık ve Mühandislik Hizmetleri, Bursa.'
+  en: 'Architectural and Engineering Services, Bursa.'
+  ar: 'Architectural and Engineering Services, Bursa.'
+
 close:
   tr: 'Kapat'
   en: 'Close'
