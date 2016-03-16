@@ -6,6 +6,22 @@
   <title>{{ site.title | escape }}</title>
   <meta name="description" content="{{ site.data.translations.description[lang] }}">
 
+  {% if page.url == '/' %}
+    {% assign page_url = '/tr' %}
+  {% else %}
+    {% assign page_url = page.url %}
+  {% endif %}
+
+  {% unless lang == 'tr' %}
+  <link rel="alternate" hreflang="tr" href="{{ page_url | replace_first: lang, 'tr' }}" />
+  {% endunless %}
+  {% unless lang == 'en' %}
+  <link rel="alternate" hreflang="en" href="{{ page_url | replace_first: lang, 'en' }}" />
+  {% endunless %}
+  {% unless lang == 'ar' %}
+  <link rel="alternate" hreflang="ar" href="{{ page_url | replace_first: lang, 'ar' }}" />
+  {% endunless %}
+
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" type="text/css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/bower_components/material-modal/dist/css/material-modal.min.css' | prepend: site.baseurl }}"></link>
