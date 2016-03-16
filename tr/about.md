@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Hizmetlerimiz
-permalink: /about
+lang: tr
+order: 2
 ---
 
 #### Mimari Faaliyetlerimiz

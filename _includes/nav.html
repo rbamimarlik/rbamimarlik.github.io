@@ -1,15 +1,13 @@
 <nav>
+  <div class="lang-selection">
+    <a href="{{page.url | replace_first: lang, 'tr' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'tr' %}mdl-button--raised{% endif %}">TR</a>
+    <a href="{{page.url | replace_first: lang, 'en' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'en' %}mdl-button--raised{% endif %}">EN</a>
+    <a href="{{page.url | replace_first: lang, 'ar' }}" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent {% if lang == 'ar' %}mdl-button--raised{% endif %}">AR</a>
+  </div>
   <ul class="mdl-list">
-    <li class="mdl-list__item">
-      <span class="mdl-list__item-primary-content"></span>
-      <span class="mdl-list__item-secondary-content">
-        <a class="mdl-list__item-secondary-action" href="/">
-          Anasayfa
-        </a>
-      </span>
-    </li>
-    {% for page in site.pages %}
-      {% if page.title %}
+    {% assign site_pages = site.pages | sort: 'order' %}
+    {% for page in site_pages %}
+      {% if page.title and page.lang == lang and page.url != '/' %}
       <li class="mdl-list__item">
         <span class="mdl-list__item-primary-content"></span>
         <span class="mdl-list__item-secondary-content">

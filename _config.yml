@@ -10,6 +10,7 @@ title: rba mimarlık
 description: >
   RBA Mimarlık ve Mühendislik Hizmetleri.
 baseurl: "" # the subpath of your site, e.g. /blog
+permalink: pretty
 
 email: info@rbamimarlik.com
 url: "http://rbamimarlik.com" # the base hostname & protocol for your site

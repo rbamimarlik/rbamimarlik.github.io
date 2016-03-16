@@ -58,15 +58,26 @@ main {
     margin-top: 160px;
 
     nav {
-      margin-top: 40px;
-      border-right: 2px solid #D7CCC8;
+      padding-top: 36px;
 
-      .mdl-list__item a {
-        color: unquote("rgb(#{$palette-rba-300})");
+      .lang-selection {
+        a {
+          font-size: 13px;
+          line-height: 34px;
+        }
       }
 
-      .mdl-list__item-secondary-content a {
-        text-decoration: none;
+      .mdl-list {
+        margin-top: 10px;
+        border-right: 2px solid #D7CCC8;
+
+        .mdl-list__item a {
+          color: unquote("rgb(#{$palette-rba-300})");
+        }
+
+        .mdl-list__item-secondary-content a {
+          text-decoration: none;
+        }
       }
     }
   }

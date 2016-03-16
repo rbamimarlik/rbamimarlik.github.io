@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Kariyer
-permalink: /career/
 ---
 
-<h4>Açık Pozisyonlar</h4>
-<span>{{ site.data.career.updateDate }}</span>
+{{ content }}
+<span>{{ site.data.career[page.lang].updateDate }}</span>
 
 <div class="mdl-grid">
 
 <ul class="demo-list-two mdl-list">
-{% for position in site.data.career.positions %}
+{% for position in site.data.career[page.lang].positions %}
   <li class="mdl-list__item mdl-list__item--two-line modal__trigger" data-modal="#modal-career" data-position="{{forloop.index}}">
     <span class="mdl-list__item-primary-content">
       {% if position.icon %}
@@ -32,7 +30,7 @@ permalink: /career/
   // dialogs initialization
   (function() {
     var positions = [
-    {% for position in site.data.career.positions %}
+    {% for position in site.data.career[page.lang].positions %}
       {
         name: '{{position.name}}',
         description: '{{position.description}}',

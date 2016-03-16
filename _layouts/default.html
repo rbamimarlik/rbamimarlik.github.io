@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 
+  {% if page.url == '/'  %}
+    {% assign lang = 'tr' %}
+  {% else %}
+    {% assign paths = page.url | split: '/' %}
+    {% assign lang = paths[1] %}
+  {% endif %}
+
   {% include head.html %}
 
   <body>
@@ -18,9 +25,9 @@
           <img class="logo" src="{{ "/assets/logo.png" | prepend: site.baseurl }}">
         </a>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="/">Anasayfa</a>
-          {% for page in site.pages %}
-            {% if page.title %}
+          {% assign site_pages = site.pages | sort: 'order' %}
+          {% for page in site_pages %}
+            {% if page.title and page.lang == lang and page.url != '/' %}
             <a class="mdl-navigation__link" href="{{ page.url }}">{{ page.title }}</a>
             {% endif %}
           {% endfor %}
@@ -31,7 +38,7 @@
         <div id="main-grid" class="mdl-grid">
           <div class="mdl-cell mdl-cell--3-col mdl-cell--hide-phone mdl-cell--hide-tablet">
             <header id="site-header">
-              <a href="{{ "/" | prepend: site.baseurl }}">
+              <a href="{{ lang | prepend: "/" | prepend: site.baseurl }}">
                 <img class="logo" src="{{ "/assets/logo.png" | prepend: site.baseurl }}">
               </a>
               {% include nav.html %}

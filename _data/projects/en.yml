@@ -1,0 +1,15 @@
+# Projects with categories
+# Supports: name, description, location thumbnail and images.
+
+- name: Outdoor Designs
+  projects:
+    - name: Kestel Belediyesi Cultural Center
+      description: Has 3500m<sup>2</sup> closed area & 1000 seats.
+      location: Kestel, Bursa, Türkiye
+      thumbnail: /project-files/Kestel-Kultur-Merkezi/0-thumb.jpg
+      images:
+        - /project-files/Kestel-Kultur-Merkezi/1.jpg
+        - /project-files/Kestel-Kultur-Merkezi/2.jpg
+        - /project-files/Kestel-Kultur-Merkezi/3.jpg
+        - /project-files/Kestel-Kultur-Merkezi/4.jpg
+        - /project-files/Kestel-Kultur-Merkezi/5.jpg

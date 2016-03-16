@@ -1,17 +1,15 @@
 ---
 layout: page
-title: Projeler
-permalink: /projects/
 ---
 <div class="projects">
   <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
     <div class="mdl-tabs__tab-bar">
-      {% for category in site.data.projects %}
+      {% for category in site.data.projects[page.lang] %}
         <a href="#{{category.name | slugify}}" class="mdl-tabs__tab {% if forloop.first %}is-active{% endif %}">{{category.name}}</a>
       {% endfor %}
     </div>
 
-  {% for category in site.data.projects %}
+  {% for category in site.data.projects[page.lang] %}
     <div class="mdl-tabs__panel {% if forloop.first %}is-active{% endif %}" id="{{category.name | slugify}}">
       <div class="mdl-grid">
       {% assign categoryIndex = forloop.index %}
@@ -44,7 +42,7 @@ permalink: /projects/
   // dialogs initialization
   (function() {
     var categories = [
-    {% for category in site.data.projects %}
+    {% for category in site.data.projects[page.lang] %}
       {
         name: '{{category.name}}',
         projects: [
