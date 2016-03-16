@@ -1,0 +1,22 @@
+##
+# App wide common translations
+
+close:
+  tr: 'Kapat'
+  en: 'Close'
+  ar: 'Close'
+
+apply:
+  tr: 'Başvur'
+  en: 'Apply'
+  ar: 'Apply'
+
+details:
+  tr: 'Detaylar'
+  en: 'Details'
+  ar: 'Details'
+
+position:
+  tr: 'Pozisyon'
+  en: 'Position'
+  ar: 'Position'

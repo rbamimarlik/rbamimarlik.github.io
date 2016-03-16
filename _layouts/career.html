@@ -29,6 +29,7 @@ layout: page
 <script>
   // dialogs initialization
   (function() {
+    var positionLocale = '{{ site.data.translations.position[page.lang] }}';
     var positions = [
     {% for position in site.data.career[page.lang].positions %}
       {
@@ -46,7 +47,7 @@ layout: page
       dialogButton = dialogButtons[i];
       dialogButton.addEventListener('click', function() {
         var position = positions[this.getAttribute('data-position')*1 - 1];
-        title = dialog.querySelector('.modal__title').innerHTML = '<h2 id="dialog-position-title" class="modal__title-text">Pozisyon: ' + position.name + '</h2>';
+        title = dialog.querySelector('.modal__title').innerHTML = '<h2 id="dialog-position-title" class="modal__title-text">' + positionLocale + ': ' + position.name + '</h2>';
         dialog.querySelector('.modal__text').innerHTML = '<p id="dialog-position-description">' + position.description + '</p>'
       });
     }
