@@ -20,4 +20,4 @@ lang: en
 - Natural gas interior piping and preparation of colon projects, making applications.
 - Preparation of electrical installation & lightning conductor projects
 - Infrastructure and landscape design projects
-- Evaluation of energy performance for buildings and regulation of EKB (Energy Performance Certificate)
+- Evaluation of energy performance for buildings and regulation of EPC (Energy Performance Certificate)
