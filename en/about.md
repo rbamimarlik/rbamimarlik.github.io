@@ -14,4 +14,10 @@ lang: en
 - Professional 3D visualization and animation Services for buildings
 
 #### Engineering Services
-- Static Applications and Detailed Projects
+- The preparation of static projects & the creation of static reports (reinforced-concrete, steel)
+- Static application and preparation of detailed drawings
+- Preparation Of mechanical installation projects (HVAC systems)
+- Natural gas interior piping and preparation of colon projects, making applications.
+- Preparation of electrical installation & lightning conductor projects
+- Infrastructure and landscape design projects
+- Evaluation of energy performance for buildings and regulation of EKB (Energy Performance Certificate)
