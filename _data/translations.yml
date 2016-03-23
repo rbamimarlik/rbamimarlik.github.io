@@ -10,19 +10,19 @@ description:
 close:
   tr: 'Kapat'
   en: 'Close'
-  ar: 'Close'
+  ar: 'إغلاق'
 
 apply:
   tr: 'Başvur'
   en: 'Apply'
-  ar: 'Apply'
+  ar: 'تطبيق'
 
 details:
   tr: 'Detaylar'
   en: 'Details'
-  ar: 'Details'
+  ar: 'التفاصيل'
 
 position:
   tr: 'Pozisyon'
   en: 'Position'
-  ar: 'Position'
+  ar: 'موقف'
