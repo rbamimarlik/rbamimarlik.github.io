@@ -3,7 +3,7 @@
 
 - name: الخارجي التصاميم
   projects:
-    - name: Kestel Municipality Culture & Congress Center
+    - name: كستل بلدية الثقافة ومركز الكونجرس
       description: 3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.
       location: Kestel, Bursa, Turkey
       thumbnail: /project-files/Kestel-Kultur-Merkezi/0-thumb.jpg
@@ -14,7 +14,7 @@
         - /project-files/Kestel-Kultur-Merkezi/4.jpg
         - /project-files/Kestel-Kultur-Merkezi/5.jpg
 
-    - name: Kestel Housing Project
+    - name: كستل مشروع الإسكان
       location: Kestel, Bursa, Turkey
       thumbnail: /project-files/Kestel-Konut/1.jpg
       images:
@@ -23,7 +23,7 @@
         - /project-files/Kestel-Konut/3.jpg
         - /project-files/Kestel-Konut/4.jpg
 
-    - name: Çekirge Hotel Project
+    - name: جندب مشروع فندق
       description: Facing Design
       thumbnail: /project-files/Cekirge-Otel/0-thumb.jpg
       location: Osmangazi, Bursa, Turkey
@@ -33,7 +33,7 @@
         - /project-files/Cekirge-Otel/3.jpg
         - /project-files/Cekirge-Otel/4.jpg
 
-    - name: Mudanya Store Project
+    - name: مشروع مخزن
       description: 3000m<sup>2</sup> store architecture project and facing design.
       thumbnail: /project-files/Mudanya-Magazalari/0-thumb.jpg
       location: Mudanya, Bursa, Turkey
@@ -42,7 +42,7 @@
         - /project-files/Mudanya-Magazalari/2.jpg
         - /project-files/Mudanya-Magazalari/3.jpg
 
-    - name: Karaman Dormitory Project
+    - name: كارامان مهجع المشروع
       description: Facing design.
       location: Nilüfer, Bursa, Turkey
       thumbnail: /project-files/Karaman-Yurdu/0-thumb.jpg
@@ -52,7 +52,7 @@
         - /project-files/Karaman-Yurdu/3.jpg
         - /project-files/Karaman-Yurdu/4.jpg
 
-    - name: Odunluk Kindergarden Project
+    - name: أعترف مشروع رياض الأطفال
       description: 2000m<sup>2</sup> architecture project and facing design.
       location: Nilüfer, Bursa, Turkey
       thumbnail: /project-files/Eve-Anaokulu/0-thumb.jpg
@@ -62,7 +62,7 @@
         - /project-files/Odunluk-Anaokulu/3.jpg
         - /project-files/Odunluk-Anaokulu/4.jpg
 
-    - name: Hocataşkın Apartment Project
+    - name: شقة المشروع
       description: 1700m<sup>2</sup> architecture project and facing design.
       location: Yıldırım, Bursa, Turkey
       thumbnail: /project-files/Hocataskin-Yurdu/0-thumb.jpg
@@ -73,7 +73,7 @@
         - /project-files/Hocataskin-Yurdu/4.jpg
         - /project-files/Hocataskin-Yurdu/5.jpg
 
-    - name: Qudro Apartment Project
+    - name: شقة المشروع
       description:
       location: Bursa, Turkey
       thumbnail: /project-files/Qudro-Apartman/2.jpg
@@ -83,7 +83,7 @@
         - /project-files/Qudro-Apartman/3.jpg
         - /project-files/Qudro-Apartman/4.jpg
 
-    - name: Toprak Apartment Project
+    - name: شقة المشروع
       description:
       location: Bursa, Turkey
       thumbnail: /project-files/Toprak-Apartman/2.jpg
@@ -93,7 +93,7 @@
         - /project-files/Toprak-Apartman/3.jpg
         - /project-files/Toprak-Apartman/4.jpg
 
-    - name: Akçalar Housing Project
+    - name: شقة المشروع
       description: 3500m<sup>2</sup> architecture project and facing design.
       location: Nilüfer, Bursa, Turkey
       thumbnail: /project-files/Akcalar-Konut/1.jpg
@@ -103,7 +103,7 @@
 
 - name: التصاميم الداخلية
   projects:
-    - name: General Designs
+    - name: العامة التصاميم
       description: Our General Interior Design Projects
       location: Bursa, Turkey
       thumbnail: /project-files/Ic-Mekanlar/0-thumb.jpg
