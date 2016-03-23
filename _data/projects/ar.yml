@@ -1,7 +1,7 @@
 # Projects with categories
 # Supports: name, description, location thumbnail and images.
 
-- name: Exterior Designs
+- name: الخارجي التصاميم
   projects:
     - name: Kestel Municipality Culture & Congress Center
       description: 3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.
@@ -101,7 +101,7 @@
         - /project-files/Akcalar-Konut/1.jpg
 
 
-- name: Interior Designs
+- name: التصاميم الداخلية
   projects:
     - name: General Designs
       description: Our General Interior Design Projects
