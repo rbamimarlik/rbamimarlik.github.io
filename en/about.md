@@ -16,7 +16,7 @@ lang: en
 #### Engineering Services
 - The preparation of static projects & the creation of static reports (reinforced-concrete, steel)
 - Static application and preparation of detailed drawings
-- Preparation Of mechanical installation projects (HVAC systems)
+- Preparation of mechanical installation projects (HVAC systems)
 - Natural gas interior piping and preparation of colon projects, making applications.
 - Preparation of electrical installation & lightning conductor projects
 - Infrastructure and landscape design projects
