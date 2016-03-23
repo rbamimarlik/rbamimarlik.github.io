@@ -3,9 +3,9 @@
 
 - name: Outdoor Designs
   projects:
-    - name: Kestel Belediyesi Cultural Center
-      description: Has 3500m<sup>2</sup> closed area & 1000 seats.
-      location: Kestel, Bursa, Türkiye
+    - name: Kestel Municipality Culture & Congress Center
+      description: 3500m<sup>2</sup> kapalı alana ve 1000 kişilik konferans salonuna sahiptir.
+      location: Kestel, Bursa, Turkey
       thumbnail: /project-files/Kestel-Kultur-Merkezi/0-thumb.jpg
       images:
         - /project-files/Kestel-Kultur-Merkezi/1.jpg
@@ -13,3 +13,112 @@
         - /project-files/Kestel-Kultur-Merkezi/3.jpg
         - /project-files/Kestel-Kultur-Merkezi/4.jpg
         - /project-files/Kestel-Kultur-Merkezi/5.jpg
+
+    - name: Kestel Housing Project
+      location: Kestel, Bursa, Turkey
+      thumbnail: /project-files/Kestel-Konut/1.jpg
+      images:
+        - /project-files/Kestel-Konut/1.jpg
+        - /project-files/Kestel-Konut/2.jpg
+        - /project-files/Kestel-Konut/3.jpg
+        - /project-files/Kestel-Konut/4.jpg
+
+    - name: Çekirge Hotel Project
+      description: Cephe kaplama tasarımı.
+      thumbnail: /project-files/Cekirge-Otel/0-thumb.jpg
+      location: Osmangazi, Bursa, Turkey
+      images:
+        - /project-files/Cekirge-Otel/1.jpg
+        - /project-files/Cekirge-Otel/2.jpg
+        - /project-files/Cekirge-Otel/3.jpg
+        - /project-files/Cekirge-Otel/4.jpg
+
+    - name: Mudanya Store Project
+      description: 3000m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
+      thumbnail: /project-files/Mudanya-Magazalari/0-thumb.jpg
+      location: Mudanya, Bursa, Turkey
+      images:
+        - /project-files/Mudanya-Magazalari/1.jpg
+        - /project-files/Mudanya-Magazalari/2.jpg
+        - /project-files/Mudanya-Magazalari/3.jpg
+
+    - name: Karaman Dormitory Project
+      description: Cephe kaplama tasarımı.
+      location: Nilüfer, Bursa, Turkey
+      thumbnail: /project-files/Karaman-Yurdu/0-thumb.jpg
+      images:
+        - /project-files/Karaman-Yurdu/1.jpg
+        - /project-files/Karaman-Yurdu/2.jpg
+        - /project-files/Karaman-Yurdu/3.jpg
+        - /project-files/Karaman-Yurdu/4.jpg
+
+    - name: Odunluk Kindergarden Project
+      description: 2000m<sup>2</sup> mimari proje ve cephe tasarımı.
+      location: Nilüfer, Bursa, Turkey
+      thumbnail: /project-files/Eve-Anaokulu/0-thumb.jpg
+      images:
+        - /project-files/Odunluk-Anaokulu/1.jpg
+        - /project-files/Odunluk-Anaokulu/2.jpg
+        - /project-files/Odunluk-Anaokulu/3.jpg
+        - /project-files/Odunluk-Anaokulu/4.jpg
+
+    - name: Hocataşkın Apartment Project
+      description: 1700m<sup>2</sup> mimari proje ve cephe tasarımı.
+      location: Yıldırım, Bursa, Turkey
+      thumbnail: /project-files/Hocataskin-Yurdu/0-thumb.jpg
+      images:
+        - /project-files/Hocataskin-Yurdu/1.jpg
+        - /project-files/Hocataskin-Yurdu/2.jpg
+        - /project-files/Hocataskin-Yurdu/3.jpg
+        - /project-files/Hocataskin-Yurdu/4.jpg
+        - /project-files/Hocataskin-Yurdu/5.jpg
+
+    - name: Qudro Apartment Project
+      description:
+      location: Bursa, Turkey
+      thumbnail: /project-files/Qudro-Apartman/2.jpg
+      images:
+        - /project-files/Qudro-Apartman/1.jpg
+        - /project-files/Qudro-Apartman/2.jpg
+        - /project-files/Qudro-Apartman/3.jpg
+        - /project-files/Qudro-Apartman/4.jpg
+
+    - name: Toprak Apartment Project
+      description:
+      location: Bursa, Turkey
+      thumbnail: /project-files/Toprak-Apartman/2.jpg
+      images:
+        - /project-files/Toprak-Apartman/1.jpg
+        - /project-files/Toprak-Apartman/2.jpg
+        - /project-files/Toprak-Apartman/3.jpg
+        - /project-files/Toprak-Apartman/4.jpg
+
+    - name: Akçalar Housing Project
+      description: 3500m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
+      location: Nilüfer, Bursa, Turkey
+      thumbnail: /project-files/Akcalar-Konut/1.jpg
+      images:
+        - /project-files/Akcalar-Konut/1.jpg
+
+
+- name: Indoor Designs
+  projects:
+    - name: General Designs
+      description: Our General Indoor Design Projects
+      location: Bursa, Turkey
+      thumbnail: /project-files/Ic-Mekanlar/0-thumb.jpg
+      images:
+        - /project-files/Ic-Mekanlar/1.jpg
+        - /project-files/Ic-Mekanlar/2.jpg
+        - /project-files/Ic-Mekanlar/3.jpg
+        - /project-files/Ic-Mekanlar/4.jpg
+        - /project-files/Ic-Mekanlar/5.jpg
+        - /project-files/Ic-Mekanlar/6.jpg
+        - /project-files/Ic-Mekanlar/7.jpg
+        - /project-files/Ic-Mekanlar/8.jpg
+        - /project-files/Ic-Mekanlar/9.jpg
+        - /project-files/Ic-Mekanlar/10.jpg
+        - /project-files/Ic-Mekanlar/11.jpg
+        - /project-files/Ic-Mekanlar/12.jpg
+        - /project-files/Ic-Mekanlar/13.jpg
+        - /project-files/Ic-Mekanlar/14.jpg
