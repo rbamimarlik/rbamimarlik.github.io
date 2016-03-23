@@ -2,8 +2,29 @@
 # supports: name, description, location (required); and thumbnail, icon (optional).
 # Material Design icons are supported. See https://design.google.com/icons
 
-updateDate: Feb 10, 2016
+updateDate: 10 Şubat 2016
 positions:
   - name: Architect
-    description: Gifted architects will be hired.
+    description: We are looking for Design Office Architects to work in various offices of our company in Ankara, of which central office is in Mustafa Kemal Mahallesi, Çankaya.
+                 Graduate from department of architecture,
+                 Experience in foreign projects and applications,
+                 MINIMUM 2 years of experience in large-scale architectural application projects,
+                 Highly motivated, dynamic and being able to work well in a team-work,
+                 Being able to ensure the coordination between all disciplines,
+                 Being able to superpose,
+                 Very good command of ArchiCAD and MS office programs,
+                 Having completed military service for male applicants
     location: Bursa
+
+  - name: Yapı Ressamı
+    description: Üniversitelerin ilgili bölümlerinden mezun olmuş yapı ressamları istihdam edilecektir.
+    location: Bursa
+
+  - name: Grafik Tasarımcı
+    description: Üniversitelerin ilgili bölümlerinden mezun olmuş grafik tasarımcıları istihdam edilecektir.
+    location: Bursa
+
+  - name: Stajyer
+    description: Üniversitelerin ilgili bölümlerinde eğitim alan 2. ve 3. sınıf öğrenciler istihdam edilecektir.
+    location: Bursa
+    icon: school
