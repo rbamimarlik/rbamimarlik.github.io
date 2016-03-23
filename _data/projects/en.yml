@@ -24,7 +24,7 @@
         - /project-files/Kestel-Konut/4.jpg
 
     - name: Çekirge Hotel Project
-      description: Cephe kaplama tasarımı.
+      description: Facing Design
       thumbnail: /project-files/Cekirge-Otel/0-thumb.jpg
       location: Osmangazi, Bursa, Turkey
       images:
@@ -34,7 +34,7 @@
         - /project-files/Cekirge-Otel/4.jpg
 
     - name: Mudanya Store Project
-      description: 3000m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
+      description: 3000m<sup>2</sup> store architecture project and facing design.
       thumbnail: /project-files/Mudanya-Magazalari/0-thumb.jpg
       location: Mudanya, Bursa, Turkey
       images:
@@ -53,7 +53,7 @@
         - /project-files/Karaman-Yurdu/4.jpg
 
     - name: Odunluk Kindergarden Project
-      description: 2000m<sup>2</sup> mimari proje ve cephe tasarımı.
+      description: 2000m<sup>2</sup> architecture project and facing design.
       location: Nilüfer, Bursa, Turkey
       thumbnail: /project-files/Eve-Anaokulu/0-thumb.jpg
       images:
@@ -63,7 +63,7 @@
         - /project-files/Odunluk-Anaokulu/4.jpg
 
     - name: Hocataşkın Apartment Project
-      description: 1700m<sup>2</sup> mimari proje ve cephe tasarımı.
+      description: 1700m<sup>2</sup> architecture project and facing design.
       location: Yıldırım, Bursa, Turkey
       thumbnail: /project-files/Hocataskin-Yurdu/0-thumb.jpg
       images:
@@ -94,7 +94,7 @@
         - /project-files/Toprak-Apartman/4.jpg
 
     - name: Akçalar Housing Project
-      description: 3500m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
+      description: 3500m<sup>2</sup> architecture project and facing design.
       location: Nilüfer, Bursa, Turkey
       thumbnail: /project-files/Akcalar-Konut/1.jpg
       images:
@@ -104,7 +104,7 @@
 - name: Interior Designs
   projects:
     - name: General Designs
-      description: Our General Indoor Design Projects
+      description: Our General Interior Design Projects
       location: Bursa, Turkey
       thumbnail: /project-files/Ic-Mekanlar/0-thumb.jpg
       images:
