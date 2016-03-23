@@ -6,9 +6,9 @@ lang: en
 ---
 
 #### Architectural Services
-- Preparation Of Preliminary Architectural Design Projects
-- Preparation Of Final Architecture Project 
-- Preparation Of Architectural License Projects for municipalities
+- Preparation of Preliminary Architectural Design Projects
+- Preparation of Final Architecture Project 
+- Preparation of Architectural License Projects for municipalities
 - Architectural Application Projects
 - Concept Works according to purpose
 - Professional 3D visualization and animation Services for buildings
