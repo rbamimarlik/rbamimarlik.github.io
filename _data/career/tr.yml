@@ -5,17 +5,17 @@
 positions:
   - name: Mimar
     description: Üniversitelerin mimarlık bölümünden mezun olmuş, minimum 2 yıllık büro deneyimine sahip, ArchiCAD & MS Office programlarına hakim, detay ve uygulama projesi deneyimi olan, büyük ölçekli projelerde yer almış, koordinasyon görevleri üstlenecek mimarlar istihdam edilecektir.
-    location: Bursa, Turkey
+    location: Bursa, Türkiye
 
   - name: Yapı Ressamı
     description: Üniversitelerin ilgili bölümlerinden mezun olmuş yapı ressamları istihdam edilecektir.
-    location: Bursa, Turkey
+    location: Bursa, Türkiye
 
   - name: Grafik Tasarımcı
     description: Üniversitelerin ilgili bölümlerinden mezun olmuş grafik tasarımcıları istihdam edilecektir.
-    location: Bursa, Turkey
+    location: Bursa, Türkiye
 
   - name: Stajyer
     description: Üniversitelerin ilgili bölümlerinde eğitim alan 2. ve 3. sınıf öğrenciler istihdam edilecektir.
-    location: Bursa, Turkey
+    location: Bursa, Türkiye
     icon: school
