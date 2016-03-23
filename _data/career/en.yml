@@ -12,18 +12,33 @@ positions:
                  Being able to ensure the coordination between all disciplines,
                  Being able to superpose,
                  Very good command of ArchiCAD and MS office programs,
-                 Having completed military service for male applicants
+                 Having completed military service for male applicants.
     location: Bursa
 
   - name: Building Draftsperson
-    description: Üniversitelerin ilgili bölümlerinden mezun olmuş yapı ressamları istihdam edilecektir.
+    description: We are looking for Design Office Architects to work in various offices of our company in Nilüfer, Bursa.
+                 Graduate from department of architecture,
+                 Experience in foreign projects and applications,
+                 Minimum 2 years of experience in large-scale architectural application projects,
+                 Highly motivated, dynamic and being able to work well in a team-work,
+                 Being able to ensure the coordination between all disciplines,
+                 Being able to superpose,
+                 Very good command of ArchiCAD and MS office programs,
+                 Having completed military service for male applicants.
     location: Bursa
 
   - name: Graphic Designer
-    description: Üniversitelerin ilgili bölümlerinden mezun olmuş grafik tasarımcıları istihdam edilecektir.
+    description: Excellent graphic design skills.
+                 Expert level knowledge of Adobe Photoshop, VRay, 3D Max and related graphic design.
+                 Experience in computer animation and/or video production is a strong advantage.
+                 Creative and innovative thinker.
+                 High sense of responsibility.
+                 Attention to detail.
+                 Strong time management skills and ability to meet deadlines.
+                 Positive and communicative attitude.
     location: Bursa
 
   - name: Long/Short Term Intern
-    description: Üniversitelerin ilgili bölümlerinde eğitim alan 2. ve 3. sınıf öğrenciler istihdam edilecektir.
+    description: Senior students who have been trained will be employed at the relevant departments of the universities.
     location: Bursa
     icon: school
