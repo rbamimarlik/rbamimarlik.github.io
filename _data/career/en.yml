@@ -2,11 +2,9 @@
 # supports: name, description, location (required); and thumbnail, icon (optional).
 # Material Design icons are supported. See https://design.google.com/icons
 
-updateDate: 10 Şubat 2016
 positions:
   - name: Architect
     description: We are looking for Design Office Architects to work in various offices of our company in Nilüfer, Bursa.
-                 
                  Graduate from department of architecture,
                  Experience in foreign projects and applications,
                  Minimum 2 years of experience in large-scale architectural application projects,
@@ -17,15 +15,15 @@ positions:
                  Having completed military service for male applicants
     location: Bursa
 
-  - name: Yapı Ressamı
+  - name: Building Draftsperson
     description: Üniversitelerin ilgili bölümlerinden mezun olmuş yapı ressamları istihdam edilecektir.
     location: Bursa
 
-  - name: Grafik Tasarımcı
+  - name: Graphic Designer
     description: Üniversitelerin ilgili bölümlerinden mezun olmuş grafik tasarımcıları istihdam edilecektir.
     location: Bursa
 
-  - name: Stajyer
+  - name: Long/Short Term Intern
     description: Üniversitelerin ilgili bölümlerinde eğitim alan 2. ve 3. sınıf öğrenciler istihdam edilecektir.
     location: Bursa
     icon: school
