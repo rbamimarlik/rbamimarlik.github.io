@@ -6,7 +6,12 @@ lang: en
 ---
 
 #### Architectural Services
-- Architectural Avan Projects
+- Preparation Of Preliminary Architectural Design Projects
+- Preparation Of Final Architecture Project 
+- Preparation Of Architectural License Projects for municipalities
+- Architectural Application Projects
+- Concept Works according to purpose
+- Professional 3D visualization and animation Services for buildings
 
 #### Engineering Services
 - Static Applications and Detailed Projects
