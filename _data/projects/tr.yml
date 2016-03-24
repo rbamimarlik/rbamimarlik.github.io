@@ -96,7 +96,7 @@
     - name: Akçalar Konut Projesi
       description: 3500m<sup>2</sup> mağaza mimari proje ve cephe tasarımı.
       location: Nilüfer, Bursa, Türkiye
-      thumbnail: /project-files/Akcalar-Konut/1.jpg
+      thumbnail: /project-files/Akcalar-Konut/0-thumb.jpg
       images:
         - /project-files/Akcalar-Konut/1.jpg
 
