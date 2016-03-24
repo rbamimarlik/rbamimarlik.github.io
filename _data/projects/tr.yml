@@ -76,7 +76,7 @@
     - name: Qudro Apartman Projesi
       description:
       location: Bursa, Türkiye
-      thumbnail: /project-files/Qudro-Apartman/2.jpg
+      thumbnail: /project-files/Qudro-Apartman/0-thumb.jpg
       images:
         - /project-files/Qudro-Apartman/1.jpg
         - /project-files/Qudro-Apartman/2.jpg
