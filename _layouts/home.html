@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="home content">
+<div class="home content {% if page.rtl %}rtl{% endif %}">
   <div class="hero mdl-shadow--3dp" style="background: url({{site.data.home[page.lang].showcase.image}});">
     <div class="hero-text">
       <h3 class="main-title">{{ site.data.home[page.lang].showcase.title }}</h3>

@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<section class="page mdl-shadow--3dp">
-  <div class="title" style="background: {% if page.background %}{{ page.background }}{% else %}#EDEDED{% endif %}">
+<section class="page mdl-shadow--3dp{% if page.rtl %} rtl{% endif %}">
+  <div class="title{% if page.title_rtl %} rtl{% endif %}" style="background: {% if page.background %}{{ page.background }}{% else %}#EDEDED{% endif %}">
     <h1 class="title-text">{{ page.title }}</h1>
   </div>
 
