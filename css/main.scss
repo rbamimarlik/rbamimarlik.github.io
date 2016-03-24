@@ -266,6 +266,7 @@ footer {
       color: #eee;
       .modal__header .modal__title {
         color: #eee;
+        margin-right: 32px;
       }
       .modal__text {
         overflow: auto;
@@ -294,3 +295,7 @@ footer {
 .modal__trigger {
   cursor: pointer;
 }
+
+.modal__header .modal__title {
+    margin-right: 32px;
+  }
