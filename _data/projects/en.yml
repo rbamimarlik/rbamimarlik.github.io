@@ -16,7 +16,7 @@
 
     - name: Kestel Housing Project
       location: Kestel, Bursa, Turkey
-      thumbnail: /project-files/Kestel-Konut/1.jpg
+      thumbnail: /project-files/Kestel-Konut/0-thumb.jpg
       images:
         - /project-files/Kestel-Konut/1.jpg
         - /project-files/Kestel-Konut/2.jpg
@@ -76,7 +76,7 @@
     - name: Qudro Apartment Project
       description:
       location: Bursa, Turkey
-      thumbnail: /project-files/Qudro-Apartman/2.jpg
+      thumbnail: /project-files/Qudro-Apartman/0-thumb.jpg
       images:
         - /project-files/Qudro-Apartman/1.jpg
         - /project-files/Qudro-Apartman/2.jpg
@@ -86,7 +86,7 @@
     - name: Toprak Apartment Project
       description:
       location: Bursa, Turkey
-      thumbnail: /project-files/Toprak-Apartman/2.jpg
+      thumbnail: /project-files/Toprak-Apartman/0-thumb.jpg
       images:
         - /project-files/Toprak-Apartman/1.jpg
         - /project-files/Toprak-Apartman/2.jpg
@@ -96,7 +96,7 @@
     - name: Akçalar Housing Project
       description: 3500m<sup>2</sup> architecture project and facing design.
       location: Nilüfer, Bursa, Turkey
-      thumbnail: /project-files/Akcalar-Konut/1.jpg
+      thumbnail: /project-files/Akcalar-Konut/0-thumb.jpg
       images:
         - /project-files/Akcalar-Konut/1.jpg
 
