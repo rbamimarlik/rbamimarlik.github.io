@@ -10,7 +10,7 @@ layout: page
 <ul class="demo-list-two mdl-list">
 {% for position in site.data.career[page.lang].positions %}
   <li class="mdl-list__item mdl-list__item--two-line modal__trigger" data-modal="#modal-career" data-position="{{forloop.index}}">
-    <span class="mdl-list__item-primary-content">
+    <span class="mdl-list__item-primary-content {% if page.rtl %}md-list__item-rtl{% endif %}">
       {% if position.icon %}
         <i class="material-icons mdl-list__item-avatar">{{position.icon}}</i>
       {% else %}
