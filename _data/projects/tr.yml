@@ -100,6 +100,31 @@
       images:
         - /project-files/Akcalar-Konut/1.jpg
 
+    - name: Görükle Konut Projesi
+      description: Konut projesi.
+      location: Bursa, Türkiye
+      thumbnail: /project-files/Gorukle-Konut/0-thumb.jpg
+      images:
+        - /project-files/Gorukle-Konut/1.jpg
+        - /project-files/Gorukle-Konut/2.jpg
+        - /project-files/Gorukle-Konut/3.jpg
+        - /project-files/Gorukle-Konut/4.jpg
+        - /project-files/Gorukle-Konut/5.jpg
+        - /project-files/Gorukle-Konut/6.jpg
+
+    - name: KMT Arslan İş Merkezi
+      description: İş merkezi projesi.
+      location: Bursa, Türkiye
+      thumbnail: /project-files/KMT-Arslan-Is-Merkezi/0-thumb.jpg
+      images:
+        - /project-files/KMT-Arslan-Is-Merkezi/1.jpg
+        - /project-files/KMT-Arslan-Is-Merkezi/2.jpg
+        - /project-files/KMT-Arslan-Is-Merkezi/3.jpg
+        - /project-files/KMT-Arslan-Is-Merkezi/4.jpg
+        - /project-files/KMT-Arslan-Is-Merkezi/5.jpg
+        - /project-files/KMT-Arslan-Is-Merkezi/6.jpg
+        - /project-files/KMT-Arslan-Is-Merkezi/7.jpg
+
 
 - name: İç Mekanlar
   projects:
