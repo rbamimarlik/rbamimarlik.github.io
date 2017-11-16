@@ -303,5 +303,13 @@ footer {
 }
 
 .modal__header .modal__title {
-    margin-right: 32px;
-  }
+  margin-right: 32px;
+}
+
+.mdl-card, .mdl-card .mdl-card__title {
+  z-index: inherit; // to fix modal animatioon
+}
+
+#modal__temp {
+  z-index: 1000
+}
