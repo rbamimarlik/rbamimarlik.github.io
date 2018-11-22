@@ -6,13 +6,13 @@ layout: page
     <div class="mdl-tabs__tab-bar">
       {% for category in site.data.projects[page.lang] %}
         {% assign category_index = forloop.index %}
-        <a href="#tab-{{category_index}}" class="mdl-tabs__tab {% if forloop.first %}is-active{% endif %}">{{category.name}}</a>
+        <a href="#tab-{{category_index}}" class="mdl-tabs__tab {% if forloop.first %}is-active{% endif %}">{{category.name}}</a>
       {% endfor %}
     </div>
 
   {% for category in site.data.projects[page.lang] %}
     {% assign category_index = forloop.index %}
-    <div class="mdl-tabs__panel {% if forloop.first %}is-active{% endif %}" id="tab-{{category_index}}">
+    <div class="mdl-tabs__panel {% if forloop.first %}is-active{% endif %}" id="tab-{{category_index}}">
       <div class="mdl-grid">
       {% for project in category.projects %}
         <div class="mdl-card project mdl-shadow--2dp">

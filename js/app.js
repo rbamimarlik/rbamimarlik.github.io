@@ -6,7 +6,7 @@
     var contentEl = document.querySelector('main .content');
     // set content height to fill window
     var height = window.innerHeight - (titleEl ? titleEl.clientHeight : 0) - 200;
-    var styles = contentEl.getAttribute('style') || '';
+    var styles = contentEl.getAttribute('style') || '';
     contentEl.setAttribute('style', styles + 'min-height: ' + height + 'px;');
   };
 

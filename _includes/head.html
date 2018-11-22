@@ -14,20 +14,20 @@
   {% endif %}
 
   {% unless lang == 'tr' %}
-  <link rel="alternate" hreflang="tr" href="{{ page_url | replace_first: lang, 'tr' }}" />
+  <link rel="alternate" hreflang="tr" href="{{ page_url | replace_first: lang, 'tr' }}" />
   {% endunless %}
   {% unless lang == 'en' %}
-  <link rel="alternate" hreflang="en" href="{{ page_url | replace_first: lang, 'en' }}" />
+  <link rel="alternate" hreflang="en" href="{{ page_url | replace_first: lang, 'en' }}" />
   {% endunless %}
   {% unless lang == 'ar' %}
-  <link rel="alternate" hreflang="ar" href="{{ page_url | replace_first: lang, 'ar' }}" />
+  <link rel="alternate" hreflang="ar" href="{{ page_url | replace_first: lang, 'ar' }}" />
   {% endunless %}
 
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" type="text/css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/bower_components/material-modal/dist/css/material-modal.min.css' | prepend: site.baseurl }}"></link>
-  <link rel="stylesheet" href="{{ '/bower_components/slick-carousel/slick/slick.css' | prepend: site.baseurl }}"></link>
-  <link rel="stylesheet" href="{{ '/bower_components/slick-carousel/slick/slick-theme.css' | prepend: site.baseurl }}"></link>
+  <link rel="stylesheet" href="{{ '/bower_components/material-modal/dist/css/material-modal.min.css' | prepend: site.baseurl }}"></link>
+  <link rel="stylesheet" href="{{ '/bower_components/slick-carousel/slick/slick.css' | prepend: site.baseurl }}"></link>
+  <link rel="stylesheet" href="{{ '/bower_components/slick-carousel/slick/slick-theme.css' | prepend: site.baseurl }}"></link>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
